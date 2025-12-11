@@ -7,96 +7,96 @@ import { INITIAL_BANKS, INITIAL_DEFAULTS, INITIAL_CATEGORIES } from './data/bank
 // --- 翻译配置 (Translations) ---
 const TRANSLATIONS = {
   cn: {
-    template_management: "模版管理",
-    template_subtitle: "切换或管理不同 Prompt",
-    new_template: "新建模版",
-    reset_template: "恢复初始",
-    confirm_reset_template: "确定要重置该模板吗？所有修改将丢失。",
-    bank_config: "词库配置",
-    bank_subtitle: "所有模版共享同一套词库",
-    preview_mode: "预览交互",
-    edit_mode: "编辑模版",
-    copy_result: "复制结果",
-    export_image: "保存长图",
-    copied: "已复制",
+    template_management: "模板管理",
+    template_subtitle: "切換或管理不同 Prompt",
+    new_template: "新建模板",
+    reset_template: "恢復初始",
+    confirm_reset_template: "確定要重置該模板嗎？所有修改將丟失。",
+    bank_config: "詞庫配置",
+    bank_subtitle: "所有模板共享同一套詞庫",
+    preview_mode: "預覽交互",
+    edit_mode: "編輯模板",
+    copy_result: "複製結果",
+    export_image: "保存長圖",
+    copied: "已複製",
     insert: "插入",
-    add_option_placeholder: "新增选项...",
-    add_bank_group: "创建新变量组",
-    add_bank_title: "新增变量分类",
-    label_name: "显示名称 (Label)",
-    label_placeholder: "例如: 武器类型",
-    id_name: "唯一标识 (ID)",
+    add_option_placeholder: "新增選項...",
+    add_bank_group: "建立新變數組",
+    add_bank_title: "新增變數分類",
+    label_name: "顯示名稱 (Label)",
+    label_placeholder: "例如: 武器類型",
+    id_name: "唯一標識 (ID)",
     id_placeholder: "例如: weapon",
-    confirm_add: "确认添加",
+    confirm_add: "確認添加",
     cancel: "取消",
-    preview_status: "预览与交互模式",
-    editing_status: "正在编辑模版结构...",
+    preview_status: "預覽與交互模式",
+    editing_status: "正在編輯模板結構...",
     rename: "重命名",
-    duplicate: "创建副本",
-    delete: "删除",
-    select: "选择",
-    no_options: "暂无选项，请在左侧添加",
-    please_select: "请选择...",
-    undefined_var: "未定义变量",
-    alert_id_exists: "该 ID 已存在！",
-    alert_keep_one: "至少需要保留一个模版",
-    confirm_delete_template: "确定要删除这个模版吗？操作无法撤销。",
-    confirm_delete_bank: "确定要删除“{{name}}”整个词库吗？",
-    new_template_name: "新模版",
-    new_template_content: "### 新模版\n\n开始编辑你的内容，使用 {{variable}} 插入变量。",
+    duplicate: "建立副本",
+    delete: "刪除",
+    select: "選擇",
+    no_options: "暫無選項，請在左側添加",
+    please_select: "請選擇...",
+    undefined_var: "未定義變量",
+    alert_id_exists: "該 ID 已存在！",
+    alert_keep_one: "至少需要保留一個模板",
+    confirm_delete_template: "確定要刪除這個模板嗎？操作無法撤銷。",
+    confirm_delete_bank: "確定要刪除“{{name}}”整個詞庫嗎？",
+    new_template_name: "新模板",
+    new_template_content: "### 新模板\n\n開始編輯你的內容，使用 {{variable}} 插入變量。",
     copy_suffix: " (副本)",
-    add_custom_option: "添加自定义选项",
-    confirm: "确定",
-    category_label: "分类 (Category)",
+    add_custom_option: "添加自定義選項",
+    confirm: "確定",
+    category_label: "分類 (Category)",
     category_character: "人物 (Character)",
     category_item: "物品 (Item)",
-    category_action: "动作 (Action)",
-    category_location: "地点 (Location)",
-    category_visual: "画面 (Visuals)",
+    category_action: "動作 (Action)",
+    category_location: "地點 (Location)",
+    category_visual: "畫面 (Visuals)",
     category_other: "其他 (Other)",
-    manage_categories: "管理分类",
-    add_category: "新增分类",
-    category_name_placeholder: "分类名称",
-    delete_category_confirm: "确定要删除分类“{{name}}”吗？该分类下的词库将归为“其他”。",
-    edit_category: "编辑分类",
-    search_templates: "搜索模版...",
-    filter_by_tags: "按标签筛选",
+    manage_categories: "管理分類",
+    add_category: "新增分類",
+    category_name_placeholder: "分類名稱",
+    delete_category_confirm: "確定要刪除分類“{{name}}”嗎？該分類下的詞庫將歸為“其他”。",
+    edit_category: "編輯分類",
+    search_templates: "搜尋模板...",
+    filter_by_tags: "按標籤篩選",
     all_templates: "全部",
-    template_tags: "模版标签",
-    add_tags: "添加标签",
-    edit_tags: "编辑标签",
-    expand_view: "展开视图",
-    collapse_view: "收起视图",
-    settings: "设置",
-    app_title: "提示词填空器",
-    author_info: "Made by CornerStudio 角落工作室 | 公众号：角落工作室 | Wechat: tanshilongmario",
-    export_template: "导出模板",
-    import_template: "导入模板",
-    export_all_templates: "导出全部",
-    storage_management: "存储管理",
+    template_tags: "模板標籤",
+    add_tags: "添加標籤",
+    edit_tags: "編輯標籤",
+    expand_view: "展開視圖",
+    collapse_view: "收起視圖",
+    settings: "設置",
+    app_title: "提示詞填空器",
+    author_info: "Made by CornerStudio 角落工作室 | 公眾號：角落工作室 | Wechat: tanshilongmario",
+    export_template: "導出模板",
+    import_template: "導入模板",
+    export_all_templates: "導出全部",
+    storage_management: "存儲管理",
     storage_used: "已使用",
-    clear_all_data: "清空所有数据",
-    confirm_clear_all: "确定要清空所有数据吗？此操作无法撤销！",
-    image_url: "图片链接",
-    image_url_placeholder: "输入图片URL地址...",
-    use_url: "使用链接",
+    clear_all_data: "清空所有數據",
+    confirm_clear_all: "確定要清空所有數據嗎？此操作無法撤銷！",
+    image_url: "圖片鏈接",
+    image_url_placeholder: "輸入圖片URL地址...",
+    use_url: "使用鏈接",
     or: "或",
-    upload_image: "上传图片",
-    change_image: "更换图片",
-    storage_mode: "存储模式",
-    use_browser_storage: "浏览器存储",
-    use_local_folder: "本地文件夹",
-    select_folder: "选择文件夹",
-    folder_selected: "已选择文件夹",
-    auto_save_enabled: "自动保存已启用",
-    browser_not_supported: "浏览器不支持文件系统访问",
-    folder_access_denied: "文件夹访问被拒绝",
-    load_from_folder: "从文件夹加载",
-    refresh_system: "刷新系统模版/词库",
-    refresh_desc: "强制更新内置模版与词库，保留用户自定义",
-    refresh_done_no_conflict: "刷新完成，系统内容已更新。",
-    refresh_done_with_conflicts: "刷新完成，发现并保留以下用户改动：",
-    refreshed_backup_suffix: "（自定义备份）"
+    upload_image: "上傳圖片",
+    change_image: "更換圖片",
+    storage_mode: "存儲模式",
+    use_browser_storage: "瀏覽器存儲",
+    use_local_folder: "本地資料夾",
+    select_folder: "選擇資料夾",
+    folder_selected: "已選擇資料夾",
+    auto_save_enabled: "自動保存已啟用",
+    browser_not_supported: "瀏覽器不支持文件系統訪問",
+    folder_access_denied: "資料夾訪問被拒絕",
+    load_from_folder: "從資料夾加載",
+    refresh_system: "刷新系統模板/詞庫",
+    refresh_desc: "強制更新內置模板與詞庫，保留用戶自定義",
+    refresh_done_no_conflict: "刷新完成，系統內容已更新。",
+    refresh_done_with_conflicts: "刷新完成，發現並保留以下用戶改動：",
+    refreshed_backup_suffix: "（自定義備份）"
   },
   en: {
     template_management: "Templates",
@@ -407,43 +407,43 @@ const CATEGORY_STYLES = {
 };
 
 const TAG_STYLES = {
-  "建筑": "bg-stone-50 text-stone-600 border border-stone-200",
+  "建築": "bg-stone-50 text-stone-600 border border-stone-200",
   "人物": "bg-rose-50 text-rose-600 border border-rose-200",
-  "摄影": "bg-orange-50 text-orange-600 border border-orange-200",
-  "产品": "bg-amber-50 text-amber-600 border border-amber-200",
-  "实拍": "bg-emerald-50 text-emerald-600 border border-emerald-200",
-  "图表": "bg-sky-50 text-sky-600 border border-sky-200",
+  "攝影": "bg-orange-50 text-orange-600 border border-orange-200",
+  "產品": "bg-amber-50 text-amber-600 border border-amber-200",
+  "實拍": "bg-emerald-50 text-emerald-600 border border-emerald-200",
+  "圖表": "bg-sky-50 text-sky-600 border border-sky-200",
   "卡通": "bg-pink-50 text-pink-600 border border-pink-200",
-  "宠物": "bg-orange-50 text-orange-600 border border-orange-200",
-  "游戏": "bg-violet-50 text-violet-600 border border-violet-200",
-  "创意": "bg-fuchsia-50 text-fuchsia-600 border border-fuchsia-200",
+  "寵物": "bg-orange-50 text-orange-600 border border-orange-200",
+  "遊戲": "bg-violet-50 text-violet-600 border border-violet-200",
+  "創意": "bg-fuchsia-50 text-fuchsia-600 border border-fuchsia-200",
   "default": "bg-gray-50 text-gray-500 border border-gray-200"
 };
 
 const TAG_LABELS = {
   cn: {
-    "建筑": "建筑",
+    "建築": "建築",
     "人物": "人物",
-    "摄影": "摄影",
-    "产品": "产品",
-    "实拍": "实拍",
-    "图表": "图表",
+    "攝影": "攝影",
+    "產品": "產品",
+    "實拍": "實拍",
+    "圖表": "圖表",
     "卡通": "卡通",
-    "宠物": "宠物",
-    "游戏": "游戏",
-    "创意": "创意"
+    "寵物": "寵物",
+    "遊戲": "遊戲",
+    "創意": "創意"
   },
   en: {
-    "建筑": "Architecture",
+    "建築": "Architecture",
     "人物": "Character",
-    "摄影": "Photography",
-    "产品": "Product",
-    "实拍": "Real Shot",
-    "图表": "Infographic",
+    "攝影": "Photography",
+    "產品": "Product",
+    "實拍": "Real Shot",
+    "圖表": "Infographic",
     "卡通": "Cartoon",
-    "宠物": "Pets",
-    "游戏": "Gaming",
-    "创意": "Creative"
+    "寵物": "Pets",
+    "遊戲": "Gaming",
+    "創意": "Creative"
   }
 };
 
@@ -502,24 +502,24 @@ const Variable = ({ id, index, config, currentVal, isOpen, onToggle, onSelect, o
   // Reset state when popover closes
   useEffect(() => {
     if (!isOpen) {
-        setIsAdding(false);
-        setCustomVal("");
+      setIsAdding(false);
+      setCustomVal("");
     }
   }, [isOpen]);
 
   if (!config) return <span className="text-gray-400 bg-gray-50 px-1 rounded border border-gray-200 text-xs" title={`${t('undefined_var')}: ${id}`}>[{id}?]</span>;
 
   const handleAddSubmit = () => {
-      if (customVal.trim()) {
-          onAddCustom(customVal.trim());
-          setCustomVal("");
-          setIsAdding(false);
-      }
+    if (customVal.trim()) {
+      onAddCustom(customVal.trim());
+      setCustomVal("");
+      setIsAdding(false);
+    }
   };
 
   return (
     <div className="relative inline-block mx-1.5 align-baseline group text-base">
-      <span 
+      <span
         data-export-pill="true" // 关键：添加标识供导出时抓取
         onClick={onToggle}
         onMouseEnter={() => setIsHovered(true)}
@@ -530,37 +530,37 @@ const Variable = ({ id, index, config, currentVal, isOpen, onToggle, onSelect, o
           hover:scale-105 active:scale-95
         `}
         style={{
-            background: `linear-gradient(135deg, ${premium.from} 0%, ${premium.to} 100%)`,
-            boxShadow: isHovered 
-                ? `inset 0px 2px 4px 0px rgba(255, 255, 255, 0.2), 0 4px 12px ${premium.glowColor}`
-                : `inset 0px 2px 4px 0px rgba(0, 0, 0, 0.1), 0 2px 5px ${premium.shadowColor}`,
-            border: '1px solid rgba(255, 255, 255, 0.3)',
-            textShadow: '0 1px 2px rgba(0,0,0,0.1)'
+          background: `linear-gradient(135deg, ${premium.from} 0%, ${premium.to} 100%)`,
+          boxShadow: isHovered
+            ? `inset 0px 2px 4px 0px rgba(255, 255, 255, 0.2), 0 4px 12px ${premium.glowColor}`
+            : `inset 0px 2px 4px 0px rgba(0, 0, 0, 0.1), 0 2px 5px ${premium.shadowColor}`,
+          border: '1px solid rgba(255, 255, 255, 0.3)',
+          textShadow: '0 1px 2px rgba(0,0,0,0.1)'
         }}
       >
         {currentVal || <span className="opacity-70 italic">{t('please_select')}</span>}
       </span>
-      
+
       {/* Popover - 词库选择器 */}
       {isOpen && (
-        <div 
+        <div
           ref={popoverRef}
           className="absolute left-0 top-full mt-2 w-72 rounded-xl shadow-2xl z-50 overflow-hidden flex flex-col text-left animate-in fade-in zoom-in-95 duration-200 origin-top-left"
-          style={{ 
-              minWidth: '280px',
-              backdropFilter: 'blur(20px)',
-              backgroundColor: 'rgba(255, 255, 255, 0.85)',
-              border: '1px solid rgba(255, 255, 255, 0.5)',
-              boxShadow: `0 10px 40px -10px ${premium.shadowColor}, 0 0 0 1px rgba(0,0,0,0.05)`
+          style={{
+            minWidth: '280px',
+            backdropFilter: 'blur(20px)',
+            backgroundColor: 'rgba(255, 255, 255, 0.85)',
+            border: '1px solid rgba(255, 255, 255, 0.5)',
+            boxShadow: `0 10px 40px -10px ${premium.shadowColor}, 0 0 0 1px rgba(0,0,0,0.05)`
           }}
         >
           <div className="px-4 py-3 border-b border-gray-100/50 flex justify-between items-center bg-white/50 backdrop-blur-sm">
             <span className="text-xs font-bold uppercase tracking-wider text-gray-500">{t('select')} {config.label}</span>
-             <span 
-                className="text-[10px] px-2 py-0.5 rounded-full font-bold text-white shadow-sm"
-                style={{ background: `linear-gradient(135deg, ${premium.from}, ${premium.to})` }}
-             >
-                {categories[categoryId]?.label || categoryId}
+            <span
+              className="text-[10px] px-2 py-0.5 rounded-full font-bold text-white shadow-sm"
+              style={{ background: `linear-gradient(135deg, ${premium.from}, ${premium.to})` }}
+            >
+              {categories[categoryId]?.label || categoryId}
             </span>
           </div>
           <div className="max-h-64 overflow-y-auto p-2 space-y-1 custom-scrollbar">
@@ -569,8 +569,8 @@ const Variable = ({ id, index, config, currentVal, isOpen, onToggle, onSelect, o
                 key={idx}
                 onClick={() => onSelect(opt)}
                 className={`w-full text-left px-3 py-2.5 rounded-lg text-sm transition-all duration-200 group flex items-center justify-between
-                  ${currentVal === opt 
-                    ? 'bg-white shadow-md ring-1 ring-black/5 font-bold' 
+                  ${currentVal === opt
+                    ? 'bg-white shadow-md ring-1 ring-black/5 font-bold'
                     : 'hover:bg-white/60 hover:shadow-sm text-gray-600 hover:text-gray-900'}`}
                 style={currentVal === opt ? { color: premium.to } : {}}
               >
@@ -583,39 +583,39 @@ const Variable = ({ id, index, config, currentVal, isOpen, onToggle, onSelect, o
               </div>
             )}
           </div>
-          
-           {/* Add Custom Option Footer */}
-           <div className="p-2 border-t border-gray-100/50 bg-white/50 backdrop-blur-sm">
-             {isAdding ? (
-                 <div className="flex gap-2">
-                     <input 
-                        autoFocus
-                        type="text"
-                        value={customVal}
-                        onChange={(e) => setCustomVal(e.target.value)}
-                        placeholder={t('add_option_placeholder')}
-                        className="flex-1 min-w-0 px-3 py-1.5 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500/20 focus:border-orange-500 bg-white/80"
-                        onKeyDown={(e) => e.key === 'Enter' && handleAddSubmit()}
-                     />
-                     <button 
-                        onClick={handleAddSubmit}
-                        disabled={!customVal.trim()}
-                        className="px-3 py-1.5 bg-gray-900 text-white rounded-lg text-xs font-medium hover:bg-gray-800 disabled:opacity-50 transition-colors shadow-sm"
-                     >
-                        {t('confirm')}
-                     </button>
-                 </div>
-             ) : (
-                 <button 
-                    onClick={(e) => {
-                        e.stopPropagation();
-                        setIsAdding(true);
-                    }}
-                    className="w-full flex items-center justify-center gap-1.5 px-3 py-2 text-xs text-gray-500 hover:text-orange-600 hover:bg-orange-50/50 rounded-lg border border-dashed border-gray-300 hover:border-orange-300 transition-all font-medium"
-                 >
-                    <Plus size={12} /> {t('add_custom_option')}
-                 </button>
-             )}
+
+          {/* Add Custom Option Footer */}
+          <div className="p-2 border-t border-gray-100/50 bg-white/50 backdrop-blur-sm">
+            {isAdding ? (
+              <div className="flex gap-2">
+                <input
+                  autoFocus
+                  type="text"
+                  value={customVal}
+                  onChange={(e) => setCustomVal(e.target.value)}
+                  placeholder={t('add_option_placeholder')}
+                  className="flex-1 min-w-0 px-3 py-1.5 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500/20 focus:border-orange-500 bg-white/80"
+                  onKeyDown={(e) => e.key === 'Enter' && handleAddSubmit()}
+                />
+                <button
+                  onClick={handleAddSubmit}
+                  disabled={!customVal.trim()}
+                  className="px-3 py-1.5 bg-gray-900 text-white rounded-lg text-xs font-medium hover:bg-gray-800 disabled:opacity-50 transition-colors shadow-sm"
+                >
+                  {t('confirm')}
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setIsAdding(true);
+                }}
+                className="w-full flex items-center justify-center gap-1.5 px-3 py-2 text-xs text-gray-500 hover:text-orange-600 hover:bg-orange-50/50 rounded-lg border border-dashed border-gray-300 hover:border-orange-300 transition-all font-medium"
+              >
+                <Plus size={12} /> {t('add_custom_option')}
+              </button>
+            )}
           </div>
         </div>
       )}
@@ -638,18 +638,18 @@ const VisualEditor = React.forwardRef(({ value, onChange, banks, categories }, r
     const parts = text.split(/(\{\{[^{}\n]+\}\})/g);
     return parts.map((part, i) => {
       if (part.startsWith('{{') && part.endsWith('}}')) {
-         const key = part.slice(2, -2).trim();
-         const bank = banks[key];
-         const categoryId = bank?.category || 'other';
-         const colorKey = categories[categoryId]?.color || 'slate';
-         const style = CATEGORY_STYLES[colorKey];
-         
-         // Style needs to match font metrics exactly, so avoid padding/border that adds width
-         return (
-            <span key={i} className={`${style.bg} ${style.text} font-bold rounded-sm`}>
-               {part}
-            </span>
-         );
+        const key = part.slice(2, -2).trim();
+        const bank = banks[key];
+        const categoryId = bank?.category || 'other';
+        const colorKey = categories[categoryId]?.color || 'slate';
+        const style = CATEGORY_STYLES[colorKey];
+
+        // Style needs to match font metrics exactly, so avoid padding/border that adds width
+        return (
+          <span key={i} className={`${style.bg} ${style.text} font-bold rounded-sm`}>
+            {part}
+          </span>
+        );
       }
       return <span key={i}>{part}</span>;
     });
@@ -661,7 +661,7 @@ const VisualEditor = React.forwardRef(({ value, onChange, banks, categories }, r
       <pre
         ref={preRef}
         className="absolute inset-0 p-8 font-mono text-sm leading-relaxed whitespace-pre-wrap break-words pointer-events-none text-gray-800 overflow-hidden m-0"
-        style={{ fontFamily: 'Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace' }} 
+        style={{ fontFamily: 'Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace' }}
         aria-hidden="true"
       >
         {renderHighlights(value)}
@@ -686,11 +686,11 @@ const VisualEditor = React.forwardRef(({ value, onChange, banks, categories }, r
 const CategorySection = ({ catId, categories, banks, onInsert, onDeleteOption, onAddOption, onDeleteBank, onUpdateBankCategory, t }) => {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const category = categories[catId];
-  
+
   if (!category) return null;
 
   const catBanks = Object.entries(banks).filter(([_, bank]) => (bank.category || 'other') === catId);
-  
+
   // 如果该分类下没有词库，不显示
   if (catBanks.length === 0) return null;
 
@@ -698,187 +698,187 @@ const CategorySection = ({ catId, categories, banks, onInsert, onDeleteOption, o
 
   return (
     <div className="break-inside-avoid transition-all duration-300">
-        <div 
-            className="flex items-center gap-1 mb-2 cursor-pointer group select-none py-1 -ml-1 pl-1 rounded hover:bg-gray-50 transition-colors"
-            onClick={() => setIsCollapsed(!isCollapsed)}
-        >
-            <div className="text-gray-400 group-hover:text-gray-600 transition-colors mt-0.5">
-                {isCollapsed ? <ChevronRight size={14} /> : <ChevronDown size={14} />}
-            </div>
-            <h3 className={`text-xs font-bold uppercase tracking-wider ${style.text} flex items-center gap-1.5 flex-1`}>
-                <span className={`w-1.5 h-1.5 rounded-full ${style.dotBg}`}></span>
-                {category.label}
-                <span className="text-gray-300 font-normal ml-1 text-[10px] tabular-nums">({catBanks.length})</span>
-            </h3>
-            {/* 折叠时的装饰线 */}
-            {isCollapsed && <div className="h-px bg-gray-100 flex-1 ml-2 mr-2"></div>}
+      <div
+        className="flex items-center gap-1 mb-2 cursor-pointer group select-none py-1 -ml-1 pl-1 rounded hover:bg-gray-50 transition-colors"
+        onClick={() => setIsCollapsed(!isCollapsed)}
+      >
+        <div className="text-gray-400 group-hover:text-gray-600 transition-colors mt-0.5">
+          {isCollapsed ? <ChevronRight size={14} /> : <ChevronDown size={14} />}
         </div>
-        
-        {!isCollapsed && (
-            <div className="space-y-3 pl-1">
-                {catBanks.map(([key, bank]) => (
-                    <BankGroup 
-                        key={key}
-                        bankKey={key} 
-                        bank={bank} 
-                        onInsert={onInsert}
-                        onDeleteOption={onDeleteOption}
-                        onAddOption={onAddOption}
-                        onDeleteBank={onDeleteBank}
-                        onUpdateBankCategory={onUpdateBankCategory}
-                        categories={categories}
-                        t={t}
-                    />
-                ))}
-            </div>
-        )}
+        <h3 className={`text-xs font-bold uppercase tracking-wider ${style.text} flex items-center gap-1.5 flex-1`}>
+          <span className={`w-1.5 h-1.5 rounded-full ${style.dotBg}`}></span>
+          {category.label}
+          <span className="text-gray-300 font-normal ml-1 text-[10px] tabular-nums">({catBanks.length})</span>
+        </h3>
+        {/* 折叠时的装饰线 */}
+        {isCollapsed && <div className="h-px bg-gray-100 flex-1 ml-2 mr-2"></div>}
+      </div>
+
+      {!isCollapsed && (
+        <div className="space-y-3 pl-1">
+          {catBanks.map(([key, bank]) => (
+            <BankGroup
+              key={key}
+              bankKey={key}
+              bank={bank}
+              onInsert={onInsert}
+              onDeleteOption={onDeleteOption}
+              onAddOption={onAddOption}
+              onDeleteBank={onDeleteBank}
+              onUpdateBankCategory={onUpdateBankCategory}
+              categories={categories}
+              t={t}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 };
 
 // --- 组件：可折叠的词库组 ---
 const BankGroup = ({ bankKey, bank, onInsert, onDeleteOption, onAddOption, onDeleteBank, onUpdateBankCategory, categories, t }) => {
-    const [isCollapsed, setIsCollapsed] = useState(true);
-    const [isEditingCategory, setIsEditingCategory] = useState(false);
+  const [isCollapsed, setIsCollapsed] = useState(true);
+  const [isEditingCategory, setIsEditingCategory] = useState(false);
 
-    const categoryId = bank.category || 'other';
-    const colorKey = categories[categoryId]?.color || 'slate';
-    const style = CATEGORY_STYLES[colorKey];
-    const premium = PREMIUM_STYLES[colorKey] || PREMIUM_STYLES.slate;
+  const categoryId = bank.category || 'other';
+  const colorKey = categories[categoryId]?.color || 'slate';
+  const style = CATEGORY_STYLES[colorKey];
+  const premium = PREMIUM_STYLES[colorKey] || PREMIUM_STYLES.slate;
 
-    const handleDragStart = (e) => {
-        e.dataTransfer.setData('text/plain', `{{${bankKey}}}`);
-        e.dataTransfer.effectAllowed = 'copy';
-    };
+  const handleDragStart = (e) => {
+    e.dataTransfer.setData('text/plain', `{{${bankKey}}}`);
+    e.dataTransfer.effectAllowed = 'copy';
+  };
 
-    return (
-        <div 
-            draggable="true"
-            onDragStart={handleDragStart}
-            className="relative group/card mb-3 cursor-grab active:cursor-grabbing"
+  return (
+    <div
+      draggable="true"
+      onDragStart={handleDragStart}
+      className="relative group/card mb-3 cursor-grab active:cursor-grabbing"
+    >
+      {/* Gradient Border Glow */}
+      <div
+        className="absolute -inset-[1px] rounded-xl opacity-70 group-hover/card:opacity-100 transition-opacity duration-300"
+        style={{ background: `linear-gradient(135deg, ${premium.from}, ${premium.to})` }}
+      />
+
+      {/* Main Card Content */}
+      <div className="relative bg-white rounded-[11px] m-[1px] overflow-hidden">
+        {/* Header / Collapsed View */}
+        <div
+          className="flex justify-between items-start p-3 cursor-pointer hover:bg-gray-50/80 transition-colors"
+          onClick={() => setIsCollapsed(!isCollapsed)}
         >
-            {/* Gradient Border Glow */}
-            <div 
-                className="absolute -inset-[1px] rounded-xl opacity-70 group-hover/card:opacity-100 transition-opacity duration-300"
-                style={{ background: `linear-gradient(135deg, ${premium.from}, ${premium.to})` }}
-            />
-
-            {/* Main Card Content */}
-            <div className="relative bg-white rounded-[11px] m-[1px] overflow-hidden">
-                {/* Header / Collapsed View */}
-                <div 
-                    className="flex justify-between items-start p-3 cursor-pointer hover:bg-gray-50/80 transition-colors"
-                    onClick={() => setIsCollapsed(!isCollapsed)}
-                >
-                    <div className="flex items-start gap-2 overflow-hidden flex-1 pr-2">
-                        <div className="mt-0.5 flex-shrink-0 text-gray-400 group-hover/card:text-gray-600 transition-colors">
-                            {isCollapsed ? <ChevronDown size={16} /> : <ChevronUp size={16} />}
-                        </div>
-                        <div className="flex flex-col min-w-0">
-                            <span className="text-sm font-bold text-gray-700 truncate leading-tight group-hover/card:text-gray-900 transition-colors">{bank.label}</span>
-                            <code className="text-[10px] text-gray-400 truncate font-mono mt-0.5" style={{ color: premium.to }}>{`{{${bankKey}}}`}</code>
-                        </div>
-                    </div>
-                    <div className="flex gap-1 items-center">
-                        <button 
-                            onClick={(e) => { e.stopPropagation(); onInsert(bankKey); }}
-                            title={t('insert')}
-                            className="p-1.5 bg-white rounded-lg border border-gray-100 hover:border-orange-200 text-gray-400 hover:text-orange-600 hover:bg-orange-50 transition-all shadow-sm flex items-center gap-1"
-                        >
-                            <Plus size={14} /> 
-                            {!isCollapsed && <span className="text-xs font-medium">{t('insert')}</span>}
-                        </button>
-                        
-                        {!isCollapsed && (
-                            <>
-                                <button 
-                                    onClick={(e) => { 
-                                        e.stopPropagation(); 
-                                        setIsEditingCategory(!isEditingCategory); 
-                                    }}
-                                    title={t('category_label')}
-                                    className="p-1.5 text-gray-400 hover:text-gray-600 hover:bg-gray-100 rounded-lg transition-colors"
-                                >
-                                    <Settings size={14} />
-                                </button>
-                                <button 
-                                    onClick={(e) => { e.stopPropagation(); onDeleteBank(bankKey); }}
-                                    className="p-1.5 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors"
-                                >
-                                    <Trash2 size={14} />
-                                </button>
-                            </>
-                        )}
-                    </div>
-                </div>
-                
-                {/* Expanded Content */}
-                {!isCollapsed && (
-                    <div className="p-3 pt-0">
-                        <div className="h-px bg-gray-100 mb-3 -mx-3"></div>
-                        
-                        {/* Category Edit Mode */}
-                        {isEditingCategory && (
-                            <div className="mb-3 pb-3 border-b border-gray-100">
-                                <label className="block text-[10px] uppercase font-bold text-gray-400 mb-1">{t('category_label')}</label>
-                                <select 
-                                    value={categoryId}
-                                    onChange={(e) => {
-                                        onUpdateBankCategory(bankKey, e.target.value);
-                                        setIsEditingCategory(false);
-                                    }}
-                                    className="w-full text-xs border border-gray-200 rounded px-2 py-1.5 focus:outline-none focus:ring-2 focus:ring-orange-500/20 focus:border-orange-500 bg-gray-50"
-                                    onClick={(e) => e.stopPropagation()}
-                                >
-                                    {Object.values(categories).map(cat => (
-                                        <option key={cat.id} value={cat.id}>{cat.label}</option>
-                                    ))}
-                                </select>
-                            </div>
-                        )}
-
-                        <div className="flex flex-col gap-2 mb-3">
-                            {bank.options.map((opt, idx) => (
-                                <div key={idx} className="group/opt flex items-center justify-between gap-2 bg-gray-50 hover:bg-white border border-transparent hover:border-gray-200 px-2.5 py-1.5 rounded-lg text-xs text-gray-600 shadow-sm transition-all duration-200">
-                                    <span className="truncate select-text" title={opt}>{opt}</span>
-                                    <button 
-                                        onClick={() => onDeleteOption(bankKey, opt)}
-                                        className="opacity-0 group-hover/opt:opacity-100 text-gray-300 hover:text-red-500 transition-all flex-shrink-0"
-                                    >
-                                        <X size={12} />
-                                    </button>
-                                </div>
-                            ))}
-                        </div>
-
-                        <div className="flex gap-2">
-                            <input
-                                type="text"
-                                placeholder={t('add_option_placeholder')}
-                                className="flex-1 px-2.5 py-1.5 text-xs border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500/20 focus:border-orange-500 transition-all bg-white"
-                                onKeyDown={(e) => {
-                                    if (e.key === 'Enter') {
-                                        onAddOption(bankKey, e.target.value);
-                                        e.target.value = '';
-                                    }
-                                }}
-                            />
-                            <button 
-                                className="p-1.5 bg-gray-50 border border-gray-200 text-gray-400 rounded-lg hover:bg-white hover:border-orange-300 hover:text-orange-600 transition-all shadow-sm"
-                                onClick={(e) => {
-                                    const input = e.currentTarget.previousSibling;
-                                    onAddOption(bankKey, input.value);
-                                    input.value = '';
-                                }}
-                            >
-                                <Plus size={16} />
-                            </button>
-                        </div>
-                    </div>
-                )}
+          <div className="flex items-start gap-2 overflow-hidden flex-1 pr-2">
+            <div className="mt-0.5 flex-shrink-0 text-gray-400 group-hover/card:text-gray-600 transition-colors">
+              {isCollapsed ? <ChevronDown size={16} /> : <ChevronUp size={16} />}
             </div>
+            <div className="flex flex-col min-w-0">
+              <span className="text-sm font-bold text-gray-700 truncate leading-tight group-hover/card:text-gray-900 transition-colors">{bank.label}</span>
+              <code className="text-[10px] text-gray-400 truncate font-mono mt-0.5" style={{ color: premium.to }}>{`{{${bankKey}}}`}</code>
+            </div>
+          </div>
+          <div className="flex gap-1 items-center">
+            <button
+              onClick={(e) => { e.stopPropagation(); onInsert(bankKey); }}
+              title={t('insert')}
+              className="p-1.5 bg-white rounded-lg border border-gray-100 hover:border-orange-200 text-gray-400 hover:text-orange-600 hover:bg-orange-50 transition-all shadow-sm flex items-center gap-1"
+            >
+              <Plus size={14} />
+              {!isCollapsed && <span className="text-xs font-medium">{t('insert')}</span>}
+            </button>
+
+            {!isCollapsed && (
+              <>
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setIsEditingCategory(!isEditingCategory);
+                  }}
+                  title={t('category_label')}
+                  className="p-1.5 text-gray-400 hover:text-gray-600 hover:bg-gray-100 rounded-lg transition-colors"
+                >
+                  <Settings size={14} />
+                </button>
+                <button
+                  onClick={(e) => { e.stopPropagation(); onDeleteBank(bankKey); }}
+                  className="p-1.5 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors"
+                >
+                  <Trash2 size={14} />
+                </button>
+              </>
+            )}
+          </div>
         </div>
-    );
+
+        {/* Expanded Content */}
+        {!isCollapsed && (
+          <div className="p-3 pt-0">
+            <div className="h-px bg-gray-100 mb-3 -mx-3"></div>
+
+            {/* Category Edit Mode */}
+            {isEditingCategory && (
+              <div className="mb-3 pb-3 border-b border-gray-100">
+                <label className="block text-[10px] uppercase font-bold text-gray-400 mb-1">{t('category_label')}</label>
+                <select
+                  value={categoryId}
+                  onChange={(e) => {
+                    onUpdateBankCategory(bankKey, e.target.value);
+                    setIsEditingCategory(false);
+                  }}
+                  className="w-full text-xs border border-gray-200 rounded px-2 py-1.5 focus:outline-none focus:ring-2 focus:ring-orange-500/20 focus:border-orange-500 bg-gray-50"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  {Object.values(categories).map(cat => (
+                    <option key={cat.id} value={cat.id}>{cat.label}</option>
+                  ))}
+                </select>
+              </div>
+            )}
+
+            <div className="flex flex-col gap-2 mb-3">
+              {bank.options.map((opt, idx) => (
+                <div key={idx} className="group/opt flex items-center justify-between gap-2 bg-gray-50 hover:bg-white border border-transparent hover:border-gray-200 px-2.5 py-1.5 rounded-lg text-xs text-gray-600 shadow-sm transition-all duration-200">
+                  <span className="truncate select-text" title={opt}>{opt}</span>
+                  <button
+                    onClick={() => onDeleteOption(bankKey, opt)}
+                    className="opacity-0 group-hover/opt:opacity-100 text-gray-300 hover:text-red-500 transition-all flex-shrink-0"
+                  >
+                    <X size={12} />
+                  </button>
+                </div>
+              ))}
+            </div>
+
+            <div className="flex gap-2">
+              <input
+                type="text"
+                placeholder={t('add_option_placeholder')}
+                className="flex-1 px-2.5 py-1.5 text-xs border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500/20 focus:border-orange-500 transition-all bg-white"
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') {
+                    onAddOption(bankKey, e.target.value);
+                    e.target.value = '';
+                  }
+                }}
+              />
+              <button
+                className="p-1.5 bg-gray-50 border border-gray-200 text-gray-400 rounded-lg hover:bg-white hover:border-orange-300 hover:text-orange-600 transition-all shadow-sm"
+                onClick={(e) => {
+                  const input = e.currentTarget.previousSibling;
+                  onAddOption(bankKey, input.value);
+                  input.value = '';
+                }}
+              >
+                <Plus size={16} />
+              </button>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
 };
 
 // --- Modal: Category Manager ---
@@ -887,7 +887,7 @@ const CategoryManager = ({ isOpen, onClose, categories, setCategories, banks, se
   const [newCatColor, setNewCatColor] = useState("slate");
   const [editingCatId, setEditingCatId] = useState(null);
   const [tempCatName, setTempCatName] = useState("");
-  
+
   const availableColors = Object.keys(CATEGORY_STYLES);
 
   if (!isOpen) return null;
@@ -895,7 +895,7 @@ const CategoryManager = ({ isOpen, onClose, categories, setCategories, banks, se
   const handleAddCategory = () => {
     if (!newCatName.trim()) return;
     const newId = `cat_${Date.now()}`;
-    
+
     setCategories(prev => ({
       ...prev,
       [newId]: { id: newId, label: newCatName, color: newCatColor }
@@ -906,44 +906,44 @@ const CategoryManager = ({ isOpen, onClose, categories, setCategories, banks, se
 
   const handleDeleteCategory = (catId) => {
     if (catId === 'other') return; // Cannot delete default
-    
+
     const catName = categories[catId].label;
     if (window.confirm(t('delete_category_confirm', { name: catName }))) {
-       // 1. Update banks to use 'other'
-       const updatedBanks = { ...banks };
-       Object.keys(updatedBanks).forEach(key => {
-           if (updatedBanks[key].category === catId) {
-               updatedBanks[key].category = 'other';
-           }
-       });
-       setBanks(updatedBanks);
+      // 1. Update banks to use 'other'
+      const updatedBanks = { ...banks };
+      Object.keys(updatedBanks).forEach(key => {
+        if (updatedBanks[key].category === catId) {
+          updatedBanks[key].category = 'other';
+        }
+      });
+      setBanks(updatedBanks);
 
-       // 2. Remove category
-       const updatedCats = { ...categories };
-       delete updatedCats[catId];
-       setCategories(updatedCats);
+      // 2. Remove category
+      const updatedCats = { ...categories };
+      delete updatedCats[catId];
+      setCategories(updatedCats);
     }
   };
 
   const startEditing = (cat) => {
-      setEditingCatId(cat.id);
-      setTempCatName(cat.label);
+    setEditingCatId(cat.id);
+    setTempCatName(cat.label);
   };
 
   const saveEditing = () => {
-      if (!tempCatName.trim()) return;
-      setCategories(prev => ({
-          ...prev,
-          [editingCatId]: { ...prev[editingCatId], label: tempCatName }
-      }));
-      setEditingCatId(null);
+    if (!tempCatName.trim()) return;
+    setCategories(prev => ({
+      ...prev,
+      [editingCatId]: { ...prev[editingCatId], label: tempCatName }
+    }));
+    setEditingCatId(null);
   };
 
   const changeColor = (catId, color) => {
-      setCategories(prev => ({
-          ...prev,
-          [catId]: { ...prev[catId], color }
-      }));
+    setCategories(prev => ({
+      ...prev,
+      [catId]: { ...prev[catId], color }
+    }));
   };
 
   return (
@@ -953,77 +953,77 @@ const CategoryManager = ({ isOpen, onClose, categories, setCategories, banks, se
           <h3 className="font-bold text-gray-800 flex items-center gap-2">
             <List size={18} /> {t('manage_categories')}
           </h3>
-          <button onClick={onClose} className="p-1 hover:bg-gray-200 rounded text-gray-500"><X size={18}/></button>
+          <button onClick={onClose} className="p-1 hover:bg-gray-200 rounded text-gray-500"><X size={18} /></button>
         </div>
-        
+
         <div className="flex-1 overflow-y-auto p-4 space-y-3">
-           {/* Add New */}
-           <div className="flex gap-2 items-center mb-4 p-3 bg-gray-50 rounded-lg border border-gray-200">
-              <input 
-                value={newCatName}
-                onChange={(e) => setNewCatName(e.target.value)}
-                placeholder={t('category_name_placeholder')}
-                className="flex-1 text-sm border border-gray-300 rounded px-2 py-1.5 focus:outline-none focus:border-orange-500"
-              />
-              <select 
-                value={newCatColor}
-                onChange={(e) => setNewCatColor(e.target.value)}
-                className="text-sm border border-gray-300 rounded px-2 py-1.5 bg-white"
-              >
-                {availableColors.map(c => <option key={c} value={c}>{c}</option>)}
-              </select>
-              <button 
-                onClick={handleAddCategory}
-                disabled={!newCatName.trim()}
-                className="p-1.5 bg-orange-600 text-white rounded disabled:opacity-50 hover:bg-orange-700"
-              >
-                <Plus size={16} />
-              </button>
-           </div>
+          {/* Add New */}
+          <div className="flex gap-2 items-center mb-4 p-3 bg-gray-50 rounded-lg border border-gray-200">
+            <input
+              value={newCatName}
+              onChange={(e) => setNewCatName(e.target.value)}
+              placeholder={t('category_name_placeholder')}
+              className="flex-1 text-sm border border-gray-300 rounded px-2 py-1.5 focus:outline-none focus:border-orange-500"
+            />
+            <select
+              value={newCatColor}
+              onChange={(e) => setNewCatColor(e.target.value)}
+              className="text-sm border border-gray-300 rounded px-2 py-1.5 bg-white"
+            >
+              {availableColors.map(c => <option key={c} value={c}>{c}</option>)}
+            </select>
+            <button
+              onClick={handleAddCategory}
+              disabled={!newCatName.trim()}
+              className="p-1.5 bg-orange-600 text-white rounded disabled:opacity-50 hover:bg-orange-700"
+            >
+              <Plus size={16} />
+            </button>
+          </div>
 
-           {/* List */}
-           <div className="space-y-2">
-             {Object.values(categories).map(cat => (
-               <div key={cat.id} className="flex items-center gap-2 p-2 border border-gray-100 rounded bg-white hover:border-gray-200 transition-colors">
-                  <div className={`w-3 h-3 rounded-full ${CATEGORY_STYLES[cat.color].dotBg}`}></div>
-                  
-                  {editingCatId === cat.id ? (
-                      <input 
-                        autoFocus
-                        value={tempCatName}
-                        onChange={(e) => setTempCatName(e.target.value)}
-                        onBlur={saveEditing}
-                        onKeyDown={(e) => e.key === 'Enter' && saveEditing()}
-                        className="flex-1 text-sm border border-orange-300 rounded px-1 py-0.5 outline-none"
-                      />
-                  ) : (
-                      <span className="flex-1 text-sm font-medium text-gray-700 truncate">{cat.label}</span>
-                  )}
+          {/* List */}
+          <div className="space-y-2">
+            {Object.values(categories).map(cat => (
+              <div key={cat.id} className="flex items-center gap-2 p-2 border border-gray-100 rounded bg-white hover:border-gray-200 transition-colors">
+                <div className={`w-3 h-3 rounded-full ${CATEGORY_STYLES[cat.color].dotBg}`}></div>
 
-                  <div className="flex items-center gap-1">
-                      {/* Color Picker */}
-                      <div className="relative group/color">
-                          <div className={`w-5 h-5 rounded cursor-pointer border border-gray-200 ${CATEGORY_STYLES[cat.color].bg}`}></div>
-                          <div className="absolute right-0 top-full mt-1 hidden group-hover/color:grid grid-cols-5 gap-1 p-2 bg-white border border-gray-200 shadow-lg rounded z-10 w-32">
-                              {availableColors.map(c => (
-                                  <div 
-                                    key={c} 
-                                    onClick={() => changeColor(cat.id, c)}
-                                    className={`w-4 h-4 rounded-full cursor-pointer hover:scale-110 transition-transform ${CATEGORY_STYLES[c].dotBg}`}
-                                    title={c}
-                                  />
-                              ))}
-                          </div>
-                      </div>
+                {editingCatId === cat.id ? (
+                  <input
+                    autoFocus
+                    value={tempCatName}
+                    onChange={(e) => setTempCatName(e.target.value)}
+                    onBlur={saveEditing}
+                    onKeyDown={(e) => e.key === 'Enter' && saveEditing()}
+                    className="flex-1 text-sm border border-orange-300 rounded px-1 py-0.5 outline-none"
+                  />
+                ) : (
+                  <span className="flex-1 text-sm font-medium text-gray-700 truncate">{cat.label}</span>
+                )}
 
-                      <button onClick={() => startEditing(cat)} className="p-1 text-gray-400 hover:text-orange-600 rounded"><Pencil size={14}/></button>
-                      {cat.id !== 'other' && (
-                          <button onClick={() => handleDeleteCategory(cat.id)} className="p-1 text-gray-400 hover:text-red-500 rounded"><Trash2 size={14}/></button>
-                      )}
+                <div className="flex items-center gap-1">
+                  {/* Color Picker */}
+                  <div className="relative group/color">
+                    <div className={`w-5 h-5 rounded cursor-pointer border border-gray-200 ${CATEGORY_STYLES[cat.color].bg}`}></div>
+                    <div className="absolute right-0 top-full mt-1 hidden group-hover/color:grid grid-cols-5 gap-1 p-2 bg-white border border-gray-200 shadow-lg rounded z-10 w-32">
+                      {availableColors.map(c => (
+                        <div
+                          key={c}
+                          onClick={() => changeColor(cat.id, c)}
+                          className={`w-4 h-4 rounded-full cursor-pointer hover:scale-110 transition-transform ${CATEGORY_STYLES[c].dotBg}`}
+                          title={c}
+                        />
+                      ))}
+                    </div>
                   </div>
-               </div>
-             ))}
-           </div>
+
+                  <button onClick={() => startEditing(cat)} className="p-1 text-gray-400 hover:text-orange-600 rounded"><Pencil size={14} /></button>
+                  {cat.id !== 'other' && (
+                    <button onClick={() => handleDeleteCategory(cat.id)} className="p-1 text-gray-400 hover:text-red-500 rounded"><Trash2 size={14} /></button>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
@@ -1041,44 +1041,44 @@ const InsertVariableModal = ({ isOpen, onClose, categories, banks, onSelect, t }
           <h3 className="font-bold text-gray-800 flex items-center gap-2">
             <List size={18} className="text-orange-600" /> {t('insert')}
           </h3>
-          <button onClick={onClose} className="p-1 hover:bg-gray-200 rounded text-gray-500"><X size={18}/></button>
+          <button onClick={onClose} className="p-1 hover:bg-gray-200 rounded text-gray-500"><X size={18} /></button>
         </div>
-        
-        <div className="flex-1 overflow-y-auto p-4 space-y-4">
-           {Object.keys(categories).map(catId => {
-               const catBanks = Object.entries(banks).filter(([_, bank]) => (bank.category || 'other') === catId);
-               if (catBanks.length === 0) return null;
-               
-               const category = categories[catId];
-               const style = CATEGORY_STYLES[category.color] || CATEGORY_STYLES.slate;
 
-               return (
-                   <div key={catId}>
-                       <h4 className={`text-xs font-bold uppercase tracking-wider mb-2 ${style.text} flex items-center gap-1.5 sticky top-0 bg-white py-1 z-10`}>
-                           <span className={`w-1.5 h-1.5 rounded-full ${style.dotBg}`}></span>
-                           {category.label}
-                       </h4>
-                       <div className="grid grid-cols-1 gap-2">
-                           {catBanks.map(([key, bank]) => (
-                               <button
-                                   key={key}
-                                   onClick={() => onSelect(key)}
-                                   className={`
+        <div className="flex-1 overflow-y-auto p-4 space-y-4">
+          {Object.keys(categories).map(catId => {
+            const catBanks = Object.entries(banks).filter(([_, bank]) => (bank.category || 'other') === catId);
+            if (catBanks.length === 0) return null;
+
+            const category = categories[catId];
+            const style = CATEGORY_STYLES[category.color] || CATEGORY_STYLES.slate;
+
+            return (
+              <div key={catId}>
+                <h4 className={`text-xs font-bold uppercase tracking-wider mb-2 ${style.text} flex items-center gap-1.5 sticky top-0 bg-white py-1 z-10`}>
+                  <span className={`w-1.5 h-1.5 rounded-full ${style.dotBg}`}></span>
+                  {category.label}
+                </h4>
+                <div className="grid grid-cols-1 gap-2">
+                  {catBanks.map(([key, bank]) => (
+                    <button
+                      key={key}
+                      onClick={() => onSelect(key)}
+                      className={`
                                      flex items-center justify-between p-3 rounded-lg border text-left transition-all group
                                      bg-white border-gray-100 hover:border-orange-200 hover:bg-orange-50/50 hover:shadow-sm
                                    `}
-                               >
-                                   <div>
-                                       <span className="block text-sm font-medium text-gray-700 group-hover:text-orange-700">{bank.label}</span>
-                                       <code className="text-[10px] text-gray-400 font-mono group-hover:text-orange-400">{`{{${key}}}`}</code>
-                                   </div>
-                                   <Plus size={16} className="text-gray-300 group-hover:text-orange-500" />
-                               </button>
-                           ))}
-                       </div>
-                   </div>
-               );
-           })}
+                    >
+                      <div>
+                        <span className="block text-sm font-medium text-gray-700 group-hover:text-orange-700">{bank.label}</span>
+                        <code className="text-[10px] text-gray-400 font-mono group-hover:text-orange-400">{`{{${key}}}`}</code>
+                      </div>
+                      <Plus size={16} className="text-gray-300 group-hover:text-orange-500" />
+                    </button>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
@@ -1087,45 +1087,45 @@ const InsertVariableModal = ({ isOpen, onClose, categories, banks, onSelect, t }
 
 
 // --- Helper Component: Premium Button (New) ---
-const PremiumButton = ({ onClick, children, className = "", active = false, disabled = false, title, icon: Icon, color="orange" }) => {
-    const [isHovered, setIsHovered] = useState(false);
-    const premium = PREMIUM_STYLES[color] || PREMIUM_STYLES.indigo;
+const PremiumButton = ({ onClick, children, className = "", active = false, disabled = false, title, icon: Icon, color = "orange" }) => {
+  const [isHovered, setIsHovered] = useState(false);
+  const premium = PREMIUM_STYLES[color] || PREMIUM_STYLES.indigo;
 
-    // Base classes
-    const baseClasses = `
+  // Base classes
+  const baseClasses = `
       flex items-center justify-center gap-2 px-3 py-1.5 rounded-lg font-medium transition-all duration-300
       disabled:opacity-50 disabled:cursor-not-allowed disabled:grayscale
       ${className}
     `;
 
-    // Active/Hover styles using inline styles for premium look
-    const style = (active || isHovered) && !disabled ? {
-        background: `linear-gradient(135deg, ${premium.from} 0%, ${premium.to} 100%)`,
-        boxShadow: `inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0 4px 12px ${premium.glowColor}`,
-        border: '1px solid rgba(255, 255, 255, 0.2)',
-        color: 'white',
-        transform: 'translateY(-1px)'
-    } : {
-        background: active ? '#EEF2FF' : 'white',
-        border: '1px solid #E5E7EB',
-        color: active ? premium.to : '#4B5563',
-        boxShadow: '0 1px 2px rgba(0,0,0,0.05)'
-    };
+  // Active/Hover styles using inline styles for premium look
+  const style = (active || isHovered) && !disabled ? {
+    background: `linear-gradient(135deg, ${premium.from} 0%, ${premium.to} 100%)`,
+    boxShadow: `inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0 4px 12px ${premium.glowColor}`,
+    border: '1px solid rgba(255, 255, 255, 0.2)',
+    color: 'white',
+    transform: 'translateY(-1px)'
+  } : {
+    background: active ? '#EEF2FF' : 'white',
+    border: '1px solid #E5E7EB',
+    color: active ? premium.to : '#4B5563',
+    boxShadow: '0 1px 2px rgba(0,0,0,0.05)'
+  };
 
-    return (
-        <button
-            onClick={onClick}
-            disabled={disabled}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
-            className={baseClasses}
-            style={style}
-            title={title}
-        >
-            {Icon && <Icon size={16} />}
-            {children && <span>{children}</span>}
-        </button>
-    );
+  return (
+    <button
+      onClick={onClick}
+      disabled={disabled}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      className={baseClasses}
+      style={style}
+      title={title}
+    >
+      {Icon && <Icon size={16} />}
+      {children && <span>{children}</span>}
+    </button>
+  );
 };
 
 // --- Helper Component: Editor Toolbar ---
@@ -1134,15 +1134,15 @@ const EditorToolbar = ({ onInsertClick, canUndo, canRedo, onUndo, onRedo, t }) =
     <div className="h-12 border-b border-gray-200 bg-white/80 backdrop-blur-sm flex items-center justify-between px-4 flex-shrink-0 z-20">
       {/* Left: Undo/Redo */}
       <div className="flex items-center gap-2">
-         <PremiumButton onClick={onUndo} disabled={!canUndo} title="Undo" icon={Undo} color="slate" className="!px-2 !py-1.5" />
-         <PremiumButton onClick={onRedo} disabled={!canRedo} title="Redo" icon={Redo} color="slate" className="!px-2 !py-1.5" />
+        <PremiumButton onClick={onUndo} disabled={!canUndo} title="Undo" icon={Undo} color="slate" className="!px-2 !py-1.5" />
+        <PremiumButton onClick={onRedo} disabled={!canRedo} title="Redo" icon={Redo} color="slate" className="!px-2 !py-1.5" />
       </div>
 
       {/* Right: Insert & Tools */}
       <div className="flex items-center gap-2">
-         <PremiumButton onClick={onInsertClick} icon={Plus} color="orange">
-            {t('insert')}
-         </PremiumButton>
+        <PremiumButton onClick={onInsertClick} icon={Plus} color="orange">
+          {t('insert')}
+        </PremiumButton>
       </div>
     </div>
   );
@@ -1152,26 +1152,26 @@ const EditorToolbar = ({ onInsertClick, canUndo, canRedo, onUndo, onRedo, t }) =
 const Lightbox = ({ isOpen, onClose, src }) => {
   if (!isOpen || !src) return null;
   return (
-    <div 
-        className="fixed inset-0 z-[100] bg-black/90 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in duration-200"
-        onClick={onClose}
+    <div
+      className="fixed inset-0 z-[100] bg-black/90 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in duration-200"
+      onClick={onClose}
     >
-        <button 
-            className="absolute top-4 right-4 p-2 text-white/70 hover:text-white rounded-full hover:bg-white/10 transition-colors z-50"
-            onClick={onClose}
-        >
-            <X size={32} />
-        </button>
-        <div 
-            className="relative max-w-7xl w-full h-full flex items-center justify-center p-4"
-            onClick={(e) => e.stopPropagation()}
-        >
-            <img 
-                src={src} 
-                alt="Preview" 
-                className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl animate-in zoom-in-95 duration-300 select-none" 
-            />
-        </div>
+      <button
+        className="absolute top-4 right-4 p-2 text-white/70 hover:text-white rounded-full hover:bg-white/10 transition-colors z-50"
+        onClick={onClose}
+      >
+        <X size={32} />
+      </button>
+      <div
+        className="relative max-w-7xl w-full h-full flex items-center justify-center p-4"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <img
+          src={src}
+          alt="Preview"
+          className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl animate-in zoom-in-95 duration-300 select-none"
+        />
+      </div>
     </div>
   );
 };
@@ -1181,12 +1181,12 @@ const App = () => {
   // bump version keys to强制刷新新增词库与默认值
   const [banks, setBanks] = useStickyState(INITIAL_BANKS, "app_banks_v9");
   const [defaults, setDefaults] = useStickyState(INITIAL_DEFAULTS, "app_defaults_v9");
-  const [language, setLanguage] = useStickyState("cn", "app_language_v1"); 
+  const [language, setLanguage] = useStickyState("cn", "app_language_v1");
   const [categories, setCategories] = useStickyState(INITIAL_CATEGORIES, "app_categories_v1"); // New state
-  
+
   const [templates, setTemplates] = useStickyState(INITIAL_TEMPLATES_CONFIG, "app_templates_v10");
   const [activeTemplateId, setActiveTemplateId] = useStickyState("tpl_default", "app_active_template_id_v4");
-  
+
   // UI State
   const [bankSidebarWidth, setBankSidebarWidth] = useStickyState(420, "app_bank_sidebar_width_v1"); // Default width increased to 420px for 2-column layout
   const [isResizing, setIsResizing] = useState(false);
@@ -1213,14 +1213,14 @@ const App = () => {
   const [imageUrlInput, setImageUrlInput] = useState("");
   const [showImageUrlInput, setShowImageUrlInput] = useState(false);
   const [showImageActionMenu, setShowImageActionMenu] = useState(false);
-  
+
   // File System Access API State
   const [storageMode, setStorageMode] = useState(() => {
     return localStorage.getItem('app_storage_mode') || 'browser';
   });
   const [directoryHandle, setDirectoryHandle] = useState(null);
   const [isFileSystemSupported, setIsFileSystemSupported] = useState(false);
-  
+
   // Template Tag Management State
   const [selectedTags, setSelectedTags] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
@@ -1241,7 +1241,7 @@ const App = () => {
   const t = (key, params = {}) => {
     let str = TRANSLATIONS[language][key] || key;
     Object.keys(params).forEach(k => {
-        str = str.replace(`{{${k}}}`, params[k]);
+      str = str.replace(`{{${k}}}`, params[k]);
     });
     return str;
   };
@@ -1252,83 +1252,83 @@ const App = () => {
 
   // Check File System Access API support and restore directory handle
   useEffect(() => {
-      const checkSupport = async () => {
-          const supported = 'showDirectoryPicker' in window;
-          setIsFileSystemSupported(supported);
-          
-          // Try to restore directory handle from IndexedDB
-          if (supported && storageMode === 'folder') {
-              try {
-                  const db = await openDB();
-                  const handle = await getDirectoryHandle(db);
-                  if (handle) {
-                      // Verify permission
-                      const permission = await handle.queryPermission({ mode: 'readwrite' });
-                      if (permission === 'granted') {
-                          setDirectoryHandle(handle);
-                          // Load data from file system
-                          await loadFromFileSystem(handle);
-                      } else {
-                          // Permission not granted, switch back to browser storage
-                          setStorageMode('browser');
-                          localStorage.setItem('app_storage_mode', 'browser');
-                      }
-                  }
-              } catch (error) {
-                  console.error('恢复文件夹句柄失败:', error);
-              }
+    const checkSupport = async () => {
+      const supported = 'showDirectoryPicker' in window;
+      setIsFileSystemSupported(supported);
+
+      // Try to restore directory handle from IndexedDB
+      if (supported && storageMode === 'folder') {
+        try {
+          const db = await openDB();
+          const handle = await getDirectoryHandle(db);
+          if (handle) {
+            // Verify permission
+            const permission = await handle.queryPermission({ mode: 'readwrite' });
+            if (permission === 'granted') {
+              setDirectoryHandle(handle);
+              // Load data from file system
+              await loadFromFileSystem(handle);
+            } else {
+              // Permission not granted, switch back to browser storage
+              setStorageMode('browser');
+              localStorage.setItem('app_storage_mode', 'browser');
+            }
           }
-      };
-      
-      checkSupport();
+        } catch (error) {
+          console.error('恢复文件夹句柄失败:', error);
+        }
+      }
+    };
+
+    checkSupport();
   }, []);
 
   // IndexedDB helper functions for storing directory handle
   const openDB = () => {
-      return new Promise((resolve, reject) => {
-          const request = indexedDB.open('PromptFillDB', 1);
-          request.onerror = () => reject(request.error);
-          request.onsuccess = () => resolve(request.result);
-          request.onupgradeneeded = (event) => {
-              const db = event.target.result;
-              if (!db.objectStoreNames.contains('handles')) {
-                  db.createObjectStore('handles');
-              }
-          };
-      });
+    return new Promise((resolve, reject) => {
+      const request = indexedDB.open('PromptFillDB', 1);
+      request.onerror = () => reject(request.error);
+      request.onsuccess = () => resolve(request.result);
+      request.onupgradeneeded = (event) => {
+        const db = event.target.result;
+        if (!db.objectStoreNames.contains('handles')) {
+          db.createObjectStore('handles');
+        }
+      };
+    });
   };
 
   const saveDirectoryHandle = async (handle) => {
-      try {
-          const db = await openDB();
-          const transaction = db.transaction(['handles'], 'readwrite');
-          const store = transaction.objectStore('handles');
-          await store.put(handle, 'directory');
-      } catch (error) {
-          console.error('保存文件夹句柄失败:', error);
-      }
+    try {
+      const db = await openDB();
+      const transaction = db.transaction(['handles'], 'readwrite');
+      const store = transaction.objectStore('handles');
+      await store.put(handle, 'directory');
+    } catch (error) {
+      console.error('保存文件夹句柄失败:', error);
+    }
   };
 
   const getDirectoryHandle = async (db) => {
-      try {
-          const transaction = db.transaction(['handles'], 'readonly');
-          const store = transaction.objectStore('handles');
-          return new Promise((resolve, reject) => {
-              const request = store.get('directory');
-              request.onsuccess = () => resolve(request.result);
-              request.onerror = () => reject(request.error);
-          });
-      } catch (error) {
-          console.error('获取文件夹句柄失败:', error);
-          return null;
-      }
+    try {
+      const transaction = db.transaction(['handles'], 'readonly');
+      const store = transaction.objectStore('handles');
+      return new Promise((resolve, reject) => {
+        const request = store.get('directory');
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+    } catch (error) {
+      console.error('获取文件夹句柄失败:', error);
+      return null;
+    }
   };
 
   // Fix initial categories if empty (migration safety)
   useEffect(() => {
-      if (!categories || Object.keys(categories).length === 0) {
-          setCategories(INITIAL_CATEGORIES);
-      }
+    if (!categories || Object.keys(categories).length === 0) {
+      setCategories(INITIAL_CATEGORIES);
+    }
   }, []);
 
   // Ensure all templates have tags field and sync default templates' tags (migration safety)
@@ -1337,7 +1337,7 @@ const App = () => {
     const updatedTemplates = templates.map(t => {
       // Find if this is a default template
       const defaultTemplate = INITIAL_TEMPLATES_CONFIG.find(dt => dt.id === t.id);
-      
+
       if (defaultTemplate) {
         // Sync tags from default template if it's a built-in one
         if (JSON.stringify(t.tags) !== JSON.stringify(defaultTemplate.tags)) {
@@ -1349,10 +1349,10 @@ const App = () => {
         needsUpdate = true;
         return { ...t, tags: [] };
       }
-      
+
       return t;
     });
-    
+
     if (needsUpdate) {
       setTemplates(updatedTemplates);
     }
@@ -1364,9 +1364,9 @@ const App = () => {
   // --- Effects ---
   // Reset history when template changes
   useEffect(() => {
-      setHistoryPast([]);
-      setHistoryFuture([]);
-      historyLastSaveTime.current = 0;
+    setHistoryPast([]);
+    setHistoryFuture([]);
+    historyLastSaveTime.current = 0;
   }, [activeTemplateId]);
 
   useEffect(() => {
@@ -1381,38 +1381,38 @@ const App = () => {
 
   // Resizing Logic
   useEffect(() => {
-      const handleMouseMove = (e) => {
-          if (!isResizing) return;
-          // New Layout: Bank Sidebar is on the Right.
-          // Width = Window Width - Mouse X
-          const newWidth = window.innerWidth - e.clientX;
-          
-          if (newWidth > 280 && newWidth < 800) { // Min/Max constraints
-              setBankSidebarWidth(newWidth);
-          }
-      };
+    const handleMouseMove = (e) => {
+      if (!isResizing) return;
+      // New Layout: Bank Sidebar is on the Right.
+      // Width = Window Width - Mouse X
+      const newWidth = window.innerWidth - e.clientX;
 
-      const handleMouseUp = () => {
-          setIsResizing(false);
-          document.body.style.cursor = 'default';
-          document.body.style.userSelect = 'auto';
-      };
-
-      if (isResizing) {
-          document.addEventListener('mousemove', handleMouseMove);
-          document.addEventListener('mouseup', handleMouseUp);
-          document.body.style.cursor = 'col-resize';
-          document.body.style.userSelect = 'none'; // Prevent text selection while resizing
+      if (newWidth > 280 && newWidth < 800) { // Min/Max constraints
+        setBankSidebarWidth(newWidth);
       }
+    };
 
-      return () => {
-          document.removeEventListener('mousemove', handleMouseMove);
-          document.removeEventListener('mouseup', handleMouseUp);
-      };
+    const handleMouseUp = () => {
+      setIsResizing(false);
+      document.body.style.cursor = 'default';
+      document.body.style.userSelect = 'auto';
+    };
+
+    if (isResizing) {
+      document.addEventListener('mousemove', handleMouseMove);
+      document.addEventListener('mouseup', handleMouseUp);
+      document.body.style.cursor = 'col-resize';
+      document.body.style.userSelect = 'none'; // Prevent text selection while resizing
+    }
+
+    return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseup', handleMouseUp);
+    };
   }, [isResizing, setBankSidebarWidth]);
 
   const startResizing = () => {
-      setIsResizing(true);
+    setIsResizing(true);
   };
 
   // --- Template Actions ---
@@ -1432,16 +1432,16 @@ const App = () => {
   };
 
   const handleDuplicateTemplate = (t_item, e) => {
-      e.stopPropagation();
-      const newId = `tpl_${Date.now()}`;
-      const newTemplate = {
-          ...t_item,
-          id: newId,
-          name: `${t_item.name}${t('copy_suffix')}`,
-          selections: { ...t_item.selections }
-      };
-      setTemplates([...templates, newTemplate]);
-      setActiveTemplateId(newId);
+    e.stopPropagation();
+    const newId = `tpl_${Date.now()}`;
+    const newTemplate = {
+      ...t_item,
+      id: newId,
+      name: `${t_item.name}${t('copy_suffix')}`,
+      selections: { ...t_item.selections }
+    };
+    setTemplates([...templates, newTemplate]);
+    setActiveTemplateId(newId);
   };
 
   const handleDeleteTemplate = (id, e) => {
@@ -1466,7 +1466,7 @@ const App = () => {
     const original = INITIAL_TEMPLATES_CONFIG.find(t => t.id === id);
     if (!original) return;
 
-    setTemplates(prev => prev.map(t => 
+    setTemplates(prev => prev.map(t =>
       t.id === id ? JSON.parse(JSON.stringify(original)) : t
     ));
   };
@@ -1479,7 +1479,7 @@ const App = () => {
 
   const saveTemplateName = () => {
     if (tempTemplateName.trim()) {
-      setTemplates(prev => prev.map(t => 
+      setTemplates(prev => prev.map(t =>
         t.id === editingTemplateNameId ? { ...t, name: tempTemplateName } : t
       ));
     }
@@ -1507,7 +1507,7 @@ const App = () => {
 
   // Template Tags Management
   const handleUpdateTemplateTags = (templateId, newTags) => {
-    setTemplates(prev => prev.map(t => 
+    setTemplates(prev => prev.map(t =>
       t.id === templateId ? { ...t, tags: newTags } : t
     ));
   };
@@ -1519,320 +1519,320 @@ const App = () => {
   // Filter templates based on search and tags
   const filteredTemplates = templates.filter(t => {
     // Search filter
-    const matchesSearch = !searchQuery || 
+    const matchesSearch = !searchQuery ||
       t.name.toLowerCase().includes(searchQuery.toLowerCase());
-    
+
     // Tag filter
-    const matchesTags = selectedTags === "" || 
+    const matchesTags = selectedTags === "" ||
       (t.tags && t.tags.includes(selectedTags));
-    
+
     return matchesSearch && matchesTags;
   });
 
   const fileInputRef = useRef(null);
-  
+
   const handleUploadImage = (e) => {
-      try {
-          const file = e.target.files?.[0];
-          if (!file) return;
-          
-          // 验证文件类型
-          if (!file.type.startsWith('image/')) {
-              if (storageMode === 'browser') {
-                  alert('请选择图片文件');
-              }
-              return;
-          }
-          
-          // 移除文件大小限制，让用户自由上传
-          // 如果超出localStorage限制，会在useStickyState中捕获并提示
-          
-          const reader = new FileReader();
-          
-          reader.onloadend = () => {
-              try {
-                  setTemplates(prev => prev.map(t => 
-                      t.id === activeTemplateId ? { ...t, imageUrl: reader.result } : t
-                  ));
-              } catch (error) {
-                  console.error('图片上传失败:', error);
-                  if (storageMode === 'browser' && error.name === 'QuotaExceededError') {
-                      alert('存储空间不足！图片过大。\n建议：\n1. 使用图片链接（URL）方式\n2. 压缩图片（tinypng.com）\n3. 导出备份后清空数据');
-                  } else {
-                      if (storageMode === 'browser') {
-                          alert('图片上传失败，请重试');
-                      }
-                  }
-              }
-          };
-          
-          reader.onerror = () => {
-              console.error('文件读取失败');
-              if (storageMode === 'browser') {
-                  alert('文件读取失败，请重试');
-              }
-          };
-          
-          reader.readAsDataURL(file);
-      } catch (error) {
-          console.error('上传图片出错:', error);
-          if (storageMode === 'browser') {
-              alert('上传图片出错，请重试');
-          }
-      } finally {
-          // 重置input，允许重复选择同一文件
-          if (e.target) {
-              e.target.value = '';
-          }
+    try {
+      const file = e.target.files?.[0];
+      if (!file) return;
+
+      // 验证文件类型
+      if (!file.type.startsWith('image/')) {
+        if (storageMode === 'browser') {
+          alert('请选择图片文件');
+        }
+        return;
       }
+
+      // 移除文件大小限制，让用户自由上传
+      // 如果超出localStorage限制，会在useStickyState中捕获并提示
+
+      const reader = new FileReader();
+
+      reader.onloadend = () => {
+        try {
+          setTemplates(prev => prev.map(t =>
+            t.id === activeTemplateId ? { ...t, imageUrl: reader.result } : t
+          ));
+        } catch (error) {
+          console.error('图片上传失败:', error);
+          if (storageMode === 'browser' && error.name === 'QuotaExceededError') {
+            alert('存储空间不足！图片过大。\n建议：\n1. 使用图片链接（URL）方式\n2. 压缩图片（tinypng.com）\n3. 导出备份后清空数据');
+          } else {
+            if (storageMode === 'browser') {
+              alert('图片上传失败，请重试');
+            }
+          }
+        }
+      };
+
+      reader.onerror = () => {
+        console.error('文件读取失败');
+        if (storageMode === 'browser') {
+          alert('文件读取失败，请重试');
+        }
+      };
+
+      reader.readAsDataURL(file);
+    } catch (error) {
+      console.error('上传图片出错:', error);
+      if (storageMode === 'browser') {
+        alert('上传图片出错，请重试');
+      }
+    } finally {
+      // 重置input，允许重复选择同一文件
+      if (e.target) {
+        e.target.value = '';
+      }
+    }
   };
 
   const handleResetImage = () => {
-      const defaultUrl = INITIAL_TEMPLATES_CONFIG.find(t => t.id === activeTemplateId)?.imageUrl;
-      if (defaultUrl) {
-          setTemplates(prev => prev.map(t => 
-              t.id === activeTemplateId ? { ...t, imageUrl: defaultUrl } : t
-          ));
-      }
+    const defaultUrl = INITIAL_TEMPLATES_CONFIG.find(t => t.id === activeTemplateId)?.imageUrl;
+    if (defaultUrl) {
+      setTemplates(prev => prev.map(t =>
+        t.id === activeTemplateId ? { ...t, imageUrl: defaultUrl } : t
+      ));
+    }
   };
 
   const handleSetImageUrl = () => {
-      if (!imageUrlInput.trim()) return;
-      
-      setTemplates(prev => prev.map(t => 
-          t.id === activeTemplateId ? { ...t, imageUrl: imageUrlInput } : t
-      ));
-      setImageUrlInput("");
-      setShowImageUrlInput(false);
+    if (!imageUrlInput.trim()) return;
+
+    setTemplates(prev => prev.map(t =>
+      t.id === activeTemplateId ? { ...t, imageUrl: imageUrlInput } : t
+    ));
+    setImageUrlInput("");
+    setShowImageUrlInput(false);
   };
 
   // --- 导出/导入功能 ---
   const handleExportTemplate = (template) => {
-      try {
-          const dataStr = JSON.stringify(template, null, 2);
-          const dataBlob = new Blob([dataStr], { type: 'application/json' });
-          const url = URL.createObjectURL(dataBlob);
-          const link = document.createElement('a');
-          link.href = url;
-          link.download = `${template.name.replace(/\s+/g, '_')}_template.json`;
-          document.body.appendChild(link);
-          link.click();
-          document.body.removeChild(link);
-          URL.revokeObjectURL(url);
-      } catch (error) {
-          console.error('导出失败:', error);
-          alert('导出失败，请重试');
-      }
+    try {
+      const dataStr = JSON.stringify(template, null, 2);
+      const dataBlob = new Blob([dataStr], { type: 'application/json' });
+      const url = URL.createObjectURL(dataBlob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `${template.name.replace(/\s+/g, '_')}_template.json`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error('导出失败:', error);
+      alert('导出失败，请重试');
+    }
   };
 
   const handleExportAllTemplates = () => {
-      try {
-          const exportData = {
-              templates,
-              banks,
-              categories,
-              version: 'v9',
-              exportDate: new Date().toISOString()
-          };
-          const dataStr = JSON.stringify(exportData, null, 2);
-          const dataBlob = new Blob([dataStr], { type: 'application/json' });
-          const url = URL.createObjectURL(dataBlob);
-          const link = document.createElement('a');
-          link.href = url;
-          link.download = `prompt_fill_backup_${Date.now()}.json`;
-          document.body.appendChild(link);
-          link.click();
-          document.body.removeChild(link);
-          URL.revokeObjectURL(url);
-      } catch (error) {
-          console.error('导出失败:', error);
-          alert('导出失败，请重试');
-      }
+    try {
+      const exportData = {
+        templates,
+        banks,
+        categories,
+        version: 'v9',
+        exportDate: new Date().toISOString()
+      };
+      const dataStr = JSON.stringify(exportData, null, 2);
+      const dataBlob = new Blob([dataStr], { type: 'application/json' });
+      const url = URL.createObjectURL(dataBlob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `prompt_fill_backup_${Date.now()}.json`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error('导出失败:', error);
+      alert('导出失败，请重试');
+    }
   };
 
   const handleImportTemplate = (event) => {
-      const file = event.target.files?.[0];
-      if (!file) return;
+    const file = event.target.files?.[0];
+    if (!file) return;
 
-      const reader = new FileReader();
-      reader.onload = (e) => {
-          try {
-              const data = JSON.parse(e.target.result);
-              
-              // 检查是单个模板还是完整备份
-              if (data.templates && Array.isArray(data.templates)) {
-                  // 完整备份
-                  if (window.confirm('检测到完整备份文件。是否要覆盖当前所有数据？')) {
-                      setTemplates(data.templates);
-                      if (data.banks) setBanks(data.banks);
-                      if (data.categories) setCategories(data.categories);
-                      alert('导入成功！');
-                  }
-              } else if (data.id && data.name) {
-                  // 单个模板
-                  const newId = `tpl_${Date.now()}`;
-                  const newTemplate = { ...data, id: newId };
-                  setTemplates(prev => [...prev, newTemplate]);
-                  setActiveTemplateId(newId);
-                  alert('模板导入成功！');
-              } else {
-                  alert('文件格式不正确');
-              }
-          } catch (error) {
-              console.error('导入失败:', error);
-              alert('导入失败，请检查文件格式');
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const data = JSON.parse(e.target.result);
+
+        // 检查是单个模板还是完整备份
+        if (data.templates && Array.isArray(data.templates)) {
+          // 完整备份
+          if (window.confirm('检测到完整备份文件。是否要覆盖当前所有数据？')) {
+            setTemplates(data.templates);
+            if (data.banks) setBanks(data.banks);
+            if (data.categories) setCategories(data.categories);
+            alert('导入成功！');
           }
-      };
-      reader.readAsText(file);
-      
-      // 重置input
-      event.target.value = '';
+        } else if (data.id && data.name) {
+          // 单个模板
+          const newId = `tpl_${Date.now()}`;
+          const newTemplate = { ...data, id: newId };
+          setTemplates(prev => [...prev, newTemplate]);
+          setActiveTemplateId(newId);
+          alert('模板导入成功！');
+        } else {
+          alert('文件格式不正确');
+        }
+      } catch (error) {
+        console.error('导入失败:', error);
+        alert('导入失败，请检查文件格式');
+      }
+    };
+    reader.readAsText(file);
+
+    // 重置input
+    event.target.value = '';
   };
 
   // --- File System Access API Functions ---
   const handleSelectDirectory = async () => {
-      try {
-          if (!isFileSystemSupported) {
-              alert(t('browser_not_supported'));
-              return;
-          }
-
-          const handle = await window.showDirectoryPicker({
-              mode: 'readwrite',
-              startIn: 'documents'
-          });
-          
-          setDirectoryHandle(handle);
-          setStorageMode('folder');
-          localStorage.setItem('app_storage_mode', 'folder');
-          
-          // Save handle to IndexedDB for future use
-          await saveDirectoryHandle(handle);
-          
-          // 尝试保存当前数据到文件夹
-          await saveToFileSystem(handle);
-          alert(t('auto_save_enabled'));
-      } catch (error) {
-          console.error('选择文件夹失败:', error);
-          if (error.name !== 'AbortError') {
-              alert(t('folder_access_denied'));
-          }
+    try {
+      if (!isFileSystemSupported) {
+        alert(t('browser_not_supported'));
+        return;
       }
+
+      const handle = await window.showDirectoryPicker({
+        mode: 'readwrite',
+        startIn: 'documents'
+      });
+
+      setDirectoryHandle(handle);
+      setStorageMode('folder');
+      localStorage.setItem('app_storage_mode', 'folder');
+
+      // Save handle to IndexedDB for future use
+      await saveDirectoryHandle(handle);
+
+      // 尝试保存当前数据到文件夹
+      await saveToFileSystem(handle);
+      alert(t('auto_save_enabled'));
+    } catch (error) {
+      console.error('选择文件夹失败:', error);
+      if (error.name !== 'AbortError') {
+        alert(t('folder_access_denied'));
+      }
+    }
   };
 
   const saveToFileSystem = async (handle) => {
-      if (!handle) return;
-      
-      try {
-          const data = {
-              templates,
-              banks,
-              categories,
-              defaults,
-              version: 'v9',
-              lastSaved: new Date().toISOString()
-          };
-          
-          const fileHandle = await handle.getFileHandle('prompt_fill_data.json', { create: true });
-          const writable = await fileHandle.createWritable();
-          await writable.write(JSON.stringify(data, null, 2));
-          await writable.close();
-          
-          console.log('数据已保存到本地文件夹');
-      } catch (error) {
-          console.error('保存到文件系统失败:', error);
-      }
+    if (!handle) return;
+
+    try {
+      const data = {
+        templates,
+        banks,
+        categories,
+        defaults,
+        version: 'v9',
+        lastSaved: new Date().toISOString()
+      };
+
+      const fileHandle = await handle.getFileHandle('prompt_fill_data.json', { create: true });
+      const writable = await fileHandle.createWritable();
+      await writable.write(JSON.stringify(data, null, 2));
+      await writable.close();
+
+      console.log('数据已保存到本地文件夹');
+    } catch (error) {
+      console.error('保存到文件系统失败:', error);
+    }
   };
 
   const loadFromFileSystem = async (handle) => {
-      if (!handle) return;
-      
-      try {
-          const fileHandle = await handle.getFileHandle('prompt_fill_data.json');
-          const file = await fileHandle.getFile();
-          const text = await file.text();
-          const data = JSON.parse(text);
-          
-          if (data.templates) setTemplates(data.templates);
-          if (data.banks) setBanks(data.banks);
-          if (data.categories) setCategories(data.categories);
-          if (data.defaults) setDefaults(data.defaults);
-          
-          console.log('从本地文件夹加载数据成功');
-      } catch (error) {
-          console.error('从文件系统读取失败:', error);
-      }
+    if (!handle) return;
+
+    try {
+      const fileHandle = await handle.getFileHandle('prompt_fill_data.json');
+      const file = await fileHandle.getFile();
+      const text = await file.text();
+      const data = JSON.parse(text);
+
+      if (data.templates) setTemplates(data.templates);
+      if (data.banks) setBanks(data.banks);
+      if (data.categories) setCategories(data.categories);
+      if (data.defaults) setDefaults(data.defaults);
+
+      console.log('从本地文件夹加载数据成功');
+    } catch (error) {
+      console.error('从文件系统读取失败:', error);
+    }
   };
 
   // Auto-save to file system when data changes
   useEffect(() => {
-      if (storageMode === 'folder' && directoryHandle) {
-          const timeoutId = setTimeout(() => {
-              saveToFileSystem(directoryHandle);
-          }, 1000); // Debounce 1 second
-          
-          return () => clearTimeout(timeoutId);
-      }
+    if (storageMode === 'folder' && directoryHandle) {
+      const timeoutId = setTimeout(() => {
+        saveToFileSystem(directoryHandle);
+      }, 1000); // Debounce 1 second
+
+      return () => clearTimeout(timeoutId);
+    }
   }, [templates, banks, categories, defaults, storageMode, directoryHandle]);
 
   // 存储空间管理
   const getStorageSize = () => {
-      try {
-          let total = 0;
-          for (let key in localStorage) {
-              if (localStorage.hasOwnProperty(key)) {
-                  total += localStorage[key].length + key.length;
-              }
-          }
-          return (total / 1024).toFixed(2); // KB
-      } catch (error) {
-          return '0';
+    try {
+      let total = 0;
+      for (let key in localStorage) {
+        if (localStorage.hasOwnProperty(key)) {
+          total += localStorage[key].length + key.length;
+        }
       }
+      return (total / 1024).toFixed(2); // KB
+    } catch (error) {
+      return '0';
+    }
   };
 
   const handleClearAllData = () => {
-      if (window.confirm(t('confirm_clear_all'))) {
-          try {
-              // 只清除应用相关的数据
-              const keysToRemove = Object.keys(localStorage).filter(key => 
-                  key.startsWith('app_')
-              );
-              keysToRemove.forEach(key => localStorage.removeItem(key));
-              
-              // 刷新页面
-              window.location.reload();
-          } catch (error) {
-              console.error('清除数据失败:', error);
-              alert('清除数据失败');
-          }
-      }
-  };
-  
-  const handleSwitchToLocalStorage = async () => {
-      setStorageMode('browser');
-      setDirectoryHandle(null);
-      localStorage.setItem('app_storage_mode', 'browser');
-      
-      // Clear directory handle from IndexedDB
+    if (window.confirm(t('confirm_clear_all'))) {
       try {
-          const db = await openDB();
-          const transaction = db.transaction(['handles'], 'readwrite');
-          const store = transaction.objectStore('handles');
-          await store.delete('directory');
+        // 只清除应用相关的数据
+        const keysToRemove = Object.keys(localStorage).filter(key =>
+          key.startsWith('app_')
+        );
+        keysToRemove.forEach(key => localStorage.removeItem(key));
+
+        // 刷新页面
+        window.location.reload();
       } catch (error) {
-          console.error('清除文件夹句柄失败:', error);
+        console.error('清除数据失败:', error);
+        alert('清除数据失败');
       }
+    }
   };
-  
+
+  const handleSwitchToLocalStorage = async () => {
+    setStorageMode('browser');
+    setDirectoryHandle(null);
+    localStorage.setItem('app_storage_mode', 'browser');
+
+    // Clear directory handle from IndexedDB
+    try {
+      const db = await openDB();
+      const transaction = db.transaction(['handles'], 'readwrite');
+      const store = transaction.objectStore('handles');
+      await store.delete('directory');
+    } catch (error) {
+      console.error('清除文件夹句柄失败:', error);
+    }
+  };
+
   const handleManualLoadFromFolder = async () => {
-      if (directoryHandle) {
-          try {
-              await loadFromFileSystem(directoryHandle);
-              alert('从文件夹加载成功！');
-          } catch (error) {
-              alert('从文件夹加载失败，请检查文件是否存在');
-          }
+    if (directoryHandle) {
+      try {
+        await loadFromFileSystem(directoryHandle);
+        alert('从文件夹加载成功！');
+      } catch (error) {
+        alert('从文件夹加载失败，请检查文件是否存在');
       }
+    }
   };
 
   const updateActiveTemplateContent = (newContent, forceSaveHistory = false) => {
@@ -1841,44 +1841,44 @@ const App = () => {
     const shouldSave = forceSaveHistory || (now - historyLastSaveTime.current > 1000);
 
     if (shouldSave) {
-        setHistoryPast(prev => [...prev, activeTemplate.content]);
-        setHistoryFuture([]); // Clear redo stack on new change
-        historyLastSaveTime.current = now;
+      setHistoryPast(prev => [...prev, activeTemplate.content]);
+      setHistoryFuture([]); // Clear redo stack on new change
+      historyLastSaveTime.current = now;
     }
 
-    setTemplates(prev => prev.map(t => 
+    setTemplates(prev => prev.map(t =>
       t.id === activeTemplateId ? { ...t, content: newContent } : t
     ));
   };
 
   const handleUndo = () => {
-      if (historyPast.length === 0) return;
-      
-      const previous = historyPast[historyPast.length - 1];
-      const newPast = historyPast.slice(0, -1);
-      
-      setHistoryFuture(prev => [activeTemplate.content, ...prev]);
-      setHistoryPast(newPast);
-      
-      // Direct update without saving history again
-      setTemplates(prev => prev.map(t => 
-        t.id === activeTemplateId ? { ...t, content: previous } : t
-      ));
+    if (historyPast.length === 0) return;
+
+    const previous = historyPast[historyPast.length - 1];
+    const newPast = historyPast.slice(0, -1);
+
+    setHistoryFuture(prev => [activeTemplate.content, ...prev]);
+    setHistoryPast(newPast);
+
+    // Direct update without saving history again
+    setTemplates(prev => prev.map(t =>
+      t.id === activeTemplateId ? { ...t, content: previous } : t
+    ));
   };
 
   const handleRedo = () => {
-      if (historyFuture.length === 0) return;
+    if (historyFuture.length === 0) return;
 
-      const next = historyFuture[0];
-      const newFuture = historyFuture.slice(1);
+    const next = historyFuture[0];
+    const newFuture = historyFuture.slice(1);
 
-      setHistoryPast(prev => [...prev, activeTemplate.content]);
-      setHistoryFuture(newFuture);
+    setHistoryPast(prev => [...prev, activeTemplate.content]);
+    setHistoryFuture(newFuture);
 
-      // Direct update without saving history again
-      setTemplates(prev => prev.map(t => 
-        t.id === activeTemplateId ? { ...t, content: next } : t
-      ));
+    // Direct update without saving history again
+    setTemplates(prev => prev.map(t =>
+      t.id === activeTemplateId ? { ...t, content: next } : t
+    ));
   };
 
   const updateActiveTemplateSelection = (uniqueKey, value) => {
@@ -1903,12 +1903,12 @@ const App = () => {
 
   const handleAddCustomAndSelect = (key, index, newValue) => {
     if (!newValue || !newValue.trim()) return;
-    
+
     // 1. Add to bank if not exists
     if (!banks[key].options.includes(newValue)) {
-        handleAddOption(key, newValue);
+      handleAddOption(key, newValue);
     }
-    
+
     // 2. Select it
     handleSelect(key, index, newValue);
   };
@@ -1937,7 +1937,7 @@ const App = () => {
   const handleAddBank = () => {
     if (!newBankLabel.trim() || !newBankKey.trim()) return;
     const safeKey = newBankKey.trim().replace(/[^a-zA-Z0-9_]/g, '_').toLowerCase();
-    
+
     if (banks[safeKey]) {
       alert(t('alert_id_exists'));
       return;
@@ -1967,26 +1967,26 @@ const App = () => {
   };
 
   const handleUpdateBankCategory = (key, newCategory) => {
-      setBanks(prev => ({
-          ...prev,
-          [key]: {
-              ...prev[key],
-              category: newCategory
-          }
-      }));
+    setBanks(prev => ({
+      ...prev,
+      [key]: {
+        ...prev[key],
+        category: newCategory
+      }
+    }));
   };
 
   // --- Editor Actions ---
 
   const insertVariableToTemplate = (key) => {
     const textToInsert = ` {{${key}}} `;
-    
+
     if (!isEditing) {
       setIsEditing(true);
       setTimeout(() => {
         updateActiveTemplateContent(activeTemplate.content + textToInsert, true);
         // Simple scroll to bottom hack
-        if(textareaRef.current) textareaRef.current.scrollTop = textareaRef.current.scrollHeight;
+        if (textareaRef.current) textareaRef.current.scrollTop = textareaRef.current.scrollHeight;
       }, 50);
       return;
     };
@@ -1999,9 +1999,9 @@ const App = () => {
     const text = activeTemplate.content;
     const before = text.substring(0, start);
     const after = text.substring(end, text.length);
-    
+
     updateActiveTemplateContent(`${before}${textToInsert}${after}`, true);
-    
+
     setTimeout(() => {
       textarea.focus();
       const newPos = start + textToInsert.length;
@@ -2014,24 +2014,24 @@ const App = () => {
     const counters = {};
 
     finalString = finalString.replace(/{{(.*?)}}/g, (match, key) => {
-        const k = key.trim();
-        const idx = counters[k] || 0;
-        counters[k] = idx + 1;
+      const k = key.trim();
+      const idx = counters[k] || 0;
+      counters[k] = idx + 1;
 
-        const uniqueKey = `${k}-${idx}`;
-        // Prioritize selection, then default
-        return activeTemplate.selections[uniqueKey] || defaults[k] || match;
+      const uniqueKey = `${k}-${idx}`;
+      // Prioritize selection, then default
+      return activeTemplate.selections[uniqueKey] || defaults[k] || match;
     });
 
     const cleanText = finalString
-        .replace(/###\s/g, '')
-        .replace(/\*\*(.*?)\*\*/g, '$1')
-        .replace(/\n\s*\n/g, '\n\n');
+      .replace(/###\s/g, '')
+      .replace(/\*\*(.*?)\*\*/g, '$1')
+      .replace(/\n\s*\n/g, '\n\n');
 
     navigator.clipboard.writeText(cleanText).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
-    }).catch(() => {});
+    }).catch(() => { });
   };
 
   const handleExportImage = async () => {
@@ -2039,7 +2039,7 @@ const App = () => {
     if (!element) return;
 
     setIsExporting(true);
-    
+
     // --- 关键修复：预处理图片为 Base64 ---
     // 这能彻底解决 html2canvas 的跨域 (CORS) 和图片加载不全问题
     // 我们手动 fetch 图片 blob 并转为 base64，绕过 canvas 的跨域限制
@@ -2049,152 +2049,152 @@ const App = () => {
     const imgElement = element.querySelector('img');
 
     if (imgElement && originalImageSrc) {
-        // 如果当前 img 没有正确的 src，先补上默认 src
-        if (!imgElement.src || imgElement.src.trim() === "" || imgElement.src.includes("data:image") === false) {
-          imgElement.src = originalImageSrc;
-        }
+      // 如果当前 img 没有正确的 src，先补上默认 src
+      if (!imgElement.src || imgElement.src.trim() === "" || imgElement.src.includes("data:image") === false) {
+        imgElement.src = originalImageSrc;
+      }
     }
 
     if (imgElement && originalImageSrc && originalImageSrc.startsWith('http')) {
-        try {
-            // 尝试通过 fetch 获取图片数据
-            const response = await fetch(originalImageSrc);
-            const blob = await response.blob();
-            tempBase64Src = await new Promise((resolve) => {
-                const reader = new FileReader();
-                reader.onloadend = () => resolve(reader.result);
-                reader.readAsDataURL(blob);
-            });
-            
-            // 临时替换为 Base64
-            imgElement.src = tempBase64Src;
-            await waitForImageLoad(imgElement);
-        } catch (e) {
-            console.warn("图片 Base64 转换失败，尝试直接导出", e);
-            // 如果 fetch 失败（比如彻底的 CORS 封锁），我们只能尝试允许 canvas 污染
-            // 但通常 fetch 失败意味着 canvas 也会失败
-        }
-    } else if (imgElement) {
-        // 即便没转 base64，也要确保当前展示图已加载完成
+      try {
+        // 尝试通过 fetch 获取图片数据
+        const response = await fetch(originalImageSrc);
+        const blob = await response.blob();
+        tempBase64Src = await new Promise((resolve) => {
+          const reader = new FileReader();
+          reader.onloadend = () => resolve(reader.result);
+          reader.readAsDataURL(blob);
+        });
+
+        // 临时替换为 Base64
+        imgElement.src = tempBase64Src;
         await waitForImageLoad(imgElement);
+      } catch (e) {
+        console.warn("图片 Base64 转换失败，尝试直接导出", e);
+        // 如果 fetch 失败（比如彻底的 CORS 封锁），我们只能尝试允许 canvas 污染
+        // 但通常 fetch 失败意味着 canvas 也会失败
+      }
+    } else if (imgElement) {
+      // 即便没转 base64，也要确保当前展示图已加载完成
+      await waitForImageLoad(imgElement);
     }
 
     try {
-        const elementHeight = element.scrollHeight;
-        
-        const canvas = await html2canvas(element, {
-            scale: 3, // 提高分辨率到 3 倍，让文字更清晰
-            useCORS: true, // 依然保持 true，作为双重保险
-            allowTaint: true,
-            backgroundColor: null,
-            logging: false,
-            windowHeight: elementHeight + 200,
-            height: elementHeight + 200,
-            onclone: (clonedDoc) => {
-                const clonedElement = clonedDoc.getElementById('preview-card');
-                if (clonedElement) {
-                   // --- 1. 容器样式优化 ---
-                   clonedElement.style.backgroundImage = 'linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%)'; // 更干净的背景
-                   clonedElement.style.boxShadow = 'none';
-                   clonedElement.style.margin = '0';
-                   clonedElement.style.borderRadius = '0';
-                   clonedElement.style.padding = '60px 80px'; // 增加左右留白
-                   clonedElement.style.width = '1000px'; // 增加宽度，让排版更宽松
-                   clonedElement.style.height = 'auto';
-                   clonedElement.style.maxWidth = 'none';
-                   
-                   // 强制字体平滑
-                   clonedElement.style.fontFamily = '"PingFang SC", "Microsoft YaHei", sans-serif'; 
-                   clonedElement.style.webkitFontSmoothing = 'antialiased';
+      const elementHeight = element.scrollHeight;
 
-                   // --- 2. 图片修复 ---
-                   // 找到图片容器，移除旋转和阴影，避免渲染 bug
-                   const imgWrapper = clonedElement.querySelector('.transform'); 
-                   if (imgWrapper) {
-                       imgWrapper.classList.remove('transform', 'md:rotate-2', 'shadow-lg', 'md:shadow-xl');
-                       imgWrapper.style.transform = 'none';
-                       imgWrapper.style.boxShadow = '0 10px 30px -10px rgba(0,0,0,0.1)'; // 简单的 CSS 阴影
-                       imgWrapper.style.border = '1px solid #e2e8f0';
-                       imgWrapper.style.margin = '0 0 0 40px'; // 确保和左边文字有距离
-                   }
+      const canvas = await html2canvas(element, {
+        scale: 3, // 提高分辨率到 3 倍，让文字更清晰
+        useCORS: true, // 依然保持 true，作为双重保险
+        allowTaint: true,
+        backgroundColor: null,
+        logging: false,
+        windowHeight: elementHeight + 200,
+        height: elementHeight + 200,
+        onclone: (clonedDoc) => {
+          const clonedElement = clonedDoc.getElementById('preview-card');
+          if (clonedElement) {
+            // --- 1. 容器样式优化 ---
+            clonedElement.style.backgroundImage = 'linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%)'; // 更干净的背景
+            clonedElement.style.boxShadow = 'none';
+            clonedElement.style.margin = '0';
+            clonedElement.style.borderRadius = '0';
+            clonedElement.style.padding = '60px 80px'; // 增加左右留白
+            clonedElement.style.width = '1000px'; // 增加宽度，让排版更宽松
+            clonedElement.style.height = 'auto';
+            clonedElement.style.maxWidth = 'none';
 
-                   const img = clonedElement.querySelector('img');
-                   if (img) {
-                       // 确保克隆出来的图片也使用 Base64 (如果转换成功)
-                       // html2canvas 有时会重新请求 src，所以这里再强制赋一次值
-                       if (tempBase64Src) {
-                           img.src = tempBase64Src; 
-                       }
-                       img.style.maxWidth = '300px';
-                       img.style.maxHeight = '300px';
-                       img.style.width = 'auto';
-                       img.style.height = 'auto';
-                       img.style.display = 'block';
-                   }
-                   
-                   // --- 3. 胶囊文字完美居中修复 ---
-                   // 使用 data 属性精准选中
-                   const variables = clonedElement.querySelectorAll('[data-export-pill="true"]');
-                   variables.forEach(v => {
-                       // 强制重置样式
-                       v.style.display = 'inline-flex'; // 使用 flex 布局更容易居中
-                       v.style.alignItems = 'center';
-                       v.style.justifyContent = 'center';
-                       v.style.height = 'auto';
-                       
-                       // 视觉微调
-                       v.style.padding = '4px 12px'; // 更充实的内边距
-                       v.style.margin = '2px 4px';
-                       v.style.borderRadius = '6px'; // 稍微方一点的圆角看起来更专业，或者保持 '9999px'
-                       
-                       // 字体调整
-                       v.style.fontSize = '16px'; 
-                       v.style.fontWeight = '600';
-                       v.style.lineHeight = '1.4'; // 关键：行高
-                       v.style.verticalAlign = 'middle';
-                       
-                       // 移除可能导致错位的样式
-                       v.style.transform = 'translateY(-1px)'; // 微微上提
-                       v.style.boxShadow = 'none'; // 移除阴影让文字更清晰
-                   });
+            // 强制字体平滑
+            clonedElement.style.fontFamily = '"PingFang SC", "Microsoft YaHei", sans-serif';
+            clonedElement.style.webkitFontSmoothing = 'antialiased';
 
-                   // --- 4. 底部水印优化 ---
-                   const footer = clonedDoc.createElement('div');
-                   footer.style.marginTop = '80px';
-                   footer.style.paddingTop = '40px';
-                   footer.style.borderTop = '2px solid #e2e8f0';
-                   footer.style.display = 'flex';
-                   footer.style.justifyContent = 'space-between';
-                   footer.style.alignItems = 'center';
-                   footer.style.color = '#94a3b8';
-                   footer.style.fontFamily = 'sans-serif';
-                   
-                   footer.innerHTML = `
+            // --- 2. 图片修复 ---
+            // 找到图片容器，移除旋转和阴影，避免渲染 bug
+            const imgWrapper = clonedElement.querySelector('.transform');
+            if (imgWrapper) {
+              imgWrapper.classList.remove('transform', 'md:rotate-2', 'shadow-lg', 'md:shadow-xl');
+              imgWrapper.style.transform = 'none';
+              imgWrapper.style.boxShadow = '0 10px 30px -10px rgba(0,0,0,0.1)'; // 简单的 CSS 阴影
+              imgWrapper.style.border = '1px solid #e2e8f0';
+              imgWrapper.style.margin = '0 0 0 40px'; // 确保和左边文字有距离
+            }
+
+            const img = clonedElement.querySelector('img');
+            if (img) {
+              // 确保克隆出来的图片也使用 Base64 (如果转换成功)
+              // html2canvas 有时会重新请求 src，所以这里再强制赋一次值
+              if (tempBase64Src) {
+                img.src = tempBase64Src;
+              }
+              img.style.maxWidth = '300px';
+              img.style.maxHeight = '300px';
+              img.style.width = 'auto';
+              img.style.height = 'auto';
+              img.style.display = 'block';
+            }
+
+            // --- 3. 胶囊文字完美居中修复 ---
+            // 使用 data 属性精准选中
+            const variables = clonedElement.querySelectorAll('[data-export-pill="true"]');
+            variables.forEach(v => {
+              // 强制重置样式
+              v.style.display = 'inline-flex'; // 使用 flex 布局更容易居中
+              v.style.alignItems = 'center';
+              v.style.justifyContent = 'center';
+              v.style.height = 'auto';
+
+              // 视觉微调
+              v.style.padding = '4px 12px'; // 更充实的内边距
+              v.style.margin = '2px 4px';
+              v.style.borderRadius = '6px'; // 稍微方一点的圆角看起来更专业，或者保持 '9999px'
+
+              // 字体调整
+              v.style.fontSize = '16px';
+              v.style.fontWeight = '600';
+              v.style.lineHeight = '1.4'; // 关键：行高
+              v.style.verticalAlign = 'middle';
+
+              // 移除可能导致错位的样式
+              v.style.transform = 'translateY(-1px)'; // 微微上提
+              v.style.boxShadow = 'none'; // 移除阴影让文字更清晰
+            });
+
+            // --- 4. 底部水印优化 ---
+            const footer = clonedDoc.createElement('div');
+            footer.style.marginTop = '80px';
+            footer.style.paddingTop = '40px';
+            footer.style.borderTop = '2px solid #e2e8f0';
+            footer.style.display = 'flex';
+            footer.style.justifyContent = 'space-between';
+            footer.style.alignItems = 'center';
+            footer.style.color = '#94a3b8';
+            footer.style.fontFamily = 'sans-serif';
+
+            footer.innerHTML = `
                        <div style="font-size: 14px; font-weight: 500;">Generated by <span style="color: #6366f1;">Prompt Fill</span></div>
                        <div style="font-size: 12px;">提示词填空器</div>
                    `;
-                   
-                   clonedElement.appendChild(footer);
-                }
-            }
-        });
 
-        const image = canvas.toDataURL('image/png');
-        const link = document.createElement('a');
-        link.href = image;
-        link.download = `${activeTemplate.name.replace(/\s+/g, '_')}_prompt.png`;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    } catch (err) {
-        console.error("Export failed:", err);
-        alert("Export failed. Please try again.");
-    } finally {
-        // 恢复原始图片 src
-        if (imgElement && originalImageSrc) {
-            imgElement.src = originalImageSrc;
+            clonedElement.appendChild(footer);
+          }
         }
-        setIsExporting(false);
+      });
+
+      const image = canvas.toDataURL('image/png');
+      const link = document.createElement('a');
+      link.href = image;
+      link.download = `${activeTemplate.name.replace(/\s+/g, '_')}_prompt.png`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (err) {
+      console.error("Export failed:", err);
+      alert("Export failed. Please try again.");
+    } finally {
+      // 恢复原始图片 src
+      if (imgElement && originalImageSrc) {
+        imgElement.src = originalImageSrc;
+      }
+      setIsExporting(false);
     }
   };
 
@@ -2202,8 +2202,8 @@ const App = () => {
 
   const renderTemplateContent = () => {
     const lines = activeTemplate.content.split('\n');
-    const counters = {}; 
-    
+    const counters = {};
+
     return lines.map((line, lineIdx) => {
       if (!line.trim()) return <div key={lineIdx} className="h-6"></div>;
 
@@ -2225,20 +2225,20 @@ const App = () => {
         );
         return <div key={lineIdx} className={className}>{content}</div>;
       } else if (/^\d+\.\s/.test(line.trim())) {
-         className = "ml-4 flex items-start gap-2 text-gray-700 mb-2 leading-10";
-         const number = line.trim().match(/^\d+\./)[0];
-         const text = line.trim().replace(/^\d+\.\s/, '');
-         content = (
-            <>
-              <span className="font-mono text-gray-400 mt-1 min-w-[20px]">{number}</span>
-              <span className="flex-1">{parseLineWithVariables(text, lineIdx, counters)}</span>
-            </>
-         );
-         return <div key={lineIdx} className={className}>{content}</div>;
+        className = "ml-4 flex items-start gap-2 text-gray-700 mb-2 leading-10";
+        const number = line.trim().match(/^\d+\./)[0];
+        const text = line.trim().replace(/^\d+\.\s/, '');
+        content = (
+          <>
+            <span className="font-mono text-gray-400 mt-1 min-w-[20px]">{number}</span>
+            <span className="flex-1">{parseLineWithVariables(text, lineIdx, counters)}</span>
+          </>
+        );
+        return <div key={lineIdx} className={className}>{content}</div>;
       }
 
       if (typeof content === 'string') {
-          return <Type key={lineIdx} className={className}>{parseLineWithVariables(content, lineIdx, counters)}</Type>;
+        return <Type key={lineIdx} className={className}>{parseLineWithVariables(content, lineIdx, counters)}</Type>;
       }
       return <Type key={lineIdx} className={className}>{content}</Type>;
     });
@@ -2251,12 +2251,12 @@ const App = () => {
         const key = part.slice(2, -2).trim();
         const varIndex = counters[key] || 0;
         counters[key] = varIndex + 1;
-        
+
         const uniqueKey = `${key}-${varIndex}`;
         const currentValue = activeTemplate.selections[uniqueKey] || defaults[key];
 
         return (
-          <Variable 
+          <Variable
             key={`${lineKeyPrefix}-${idx}`}
             id={key}
             index={varIndex}
@@ -2275,7 +2275,7 @@ const App = () => {
           />
         );
       }
-      
+
       const boldParts = part.split(/(\*\*.*?\*\*)/g);
       return boldParts.map((bp, bIdx) => {
         if (bp.startsWith('**') && bp.endsWith('**')) {
@@ -2288,10 +2288,10 @@ const App = () => {
 
   return (
     <div className="flex flex-col md:flex-row h-screen w-screen bg-gradient-to-br from-[#F3F4F6] to-[#E5E7EB] font-sans text-slate-800 overflow-hidden md:p-4 md:gap-4">
-      
+
       {/* --- 1. Templates Sidebar (Far Left) --- */}
       {/* Mobile: Show only if tab is 'templates'. Desktop: Always show. */}
-      <div 
+      <div
         className={`
         ${mobileTab === 'templates' ? 'flex fixed inset-0 z-50 md:static' : 'hidden'} 
         md:flex flex-col flex-shrink-0 h-full transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)]
@@ -2305,300 +2305,298 @@ const App = () => {
           backgroundRepeat: 'no-repeat'
         } : {}}
       >
-        
+
         {/* Unified Header Section */}
         <div className={`
             flex-shrink-0 transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)]
             ${isTemplateExpanded ? 'p-8 pb-4' : 'p-5 border-b border-gray-200/50 bg-white/30 backdrop-blur-sm'}
         `}>
-           <div className={`flex items-center transition-all duration-500 ${isTemplateExpanded ? 'justify-center relative mb-6' : 'justify-between mb-4'}`}>
-               
-               {/* Title Group */}
-               <div className={`flex transition-all duration-500 ${isTemplateExpanded ? 'flex-col items-center' : 'flex-row items-baseline gap-2'}`}>
-                   {/* Icon removed for Expanded state as per request */}
-                   <div className={`flex flex-col ${isTemplateExpanded ? 'items-center' : 'items-start'}`}>
-                        <h1 className={`font-bold tracking-tight transition-all duration-500 ${isTemplateExpanded ? 'text-3xl text-orange-500' : 'text-sm text-orange-500'}`}>
-                            {isTemplateExpanded ? t('app_title') : '提示词填空器'}
-                            {!isTemplateExpanded && <span className="text-gray-400 text-xs font-normal ml-1">V0.4.0</span>}
-                        </h1>
-                        {/* Author info removed from here for Expanded state, moved to bottom */}
-                   </div>
-               </div>
+          <div className={`flex items-center transition-all duration-500 ${isTemplateExpanded ? 'justify-center relative mb-6' : 'justify-between mb-4'}`}>
 
-               {/* Right Actions (Toggle & Lang) */}
-               <div className={`flex items-center gap-2 transition-all duration-500 ${isTemplateExpanded ? 'absolute right-0 top-0' : ''}`}>
-                    <button 
-                      onClick={handleRefreshSystemData}
-                      className="p-1.5 text-gray-500 hover:text-orange-600 hover:bg-orange-50 rounded-lg transition-colors"
-                      title={t('refresh_desc')}
-                    >
-                      <RotateCcw size={16} />
-                    </button>
-                    <button 
-                      onClick={() => setLanguage(language === 'cn' ? 'en' : 'cn')}
-                      className="text-[10px] bg-white/80 text-gray-500 px-2 py-1 rounded-full hover:text-orange-600 hover:bg-orange-50 border border-gray-200/50 transition-colors flex items-center gap-1 shadow-sm"
-                    >
-                      <Globe size={10} />
-                      {language.toUpperCase()}
-                    </button>
-                    
-                    <button
-                        onClick={() => setIsSettingsOpen(true)}
-                        className="p-1.5 text-gray-500 hover:text-orange-600 hover:bg-orange-50 rounded-lg transition-colors"
-                        title={t('settings')}
-                    >
-                        <Settings size={16} />
-                    </button>
-                    
-                    <button
-                        onClick={() => setIsTemplateExpanded(!isTemplateExpanded)}
-                        className="p-1.5 text-gray-500 hover:text-orange-600 hover:bg-orange-50 rounded-lg transition-colors"
-                        title={isTemplateExpanded ? t('collapse_view') : t('expand_view')}
-                    >
-                        {isTemplateExpanded ? <Sidebar size={16} /> : <LayoutGrid size={16} />}
-                    </button>
-               </div>
-           </div>
-
-           {/* Subtitle & Info (Collapsed Only) - Fade out when expanded */}
-           <div className={`transition-all duration-500 overflow-hidden ${isTemplateExpanded ? 'max-h-0 opacity-0' : 'max-h-20 opacity-100'}`}>
-              <div className="flex items-center gap-2 text-gray-800 mb-1">
-                {/* Collapsed state title/subtitle logic removed, only showing unified header content */}
+            {/* Title Group */}
+            <div className={`flex transition-all duration-500 ${isTemplateExpanded ? 'flex-col items-center' : 'flex-row items-baseline gap-2'}`}>
+              {/* Icon removed for Expanded state as per request */}
+              <div className={`flex flex-col ${isTemplateExpanded ? 'items-center' : 'items-start'}`}>
+                <h1 className={`font-bold tracking-tight transition-all duration-500 ${isTemplateExpanded ? 'text-3xl text-orange-500' : 'text-sm text-orange-500'}`}>
+                  {isTemplateExpanded ? t('app_title') : '提示词填空器'}
+                  {!isTemplateExpanded && <span className="text-gray-400 text-xs font-normal ml-1">V0.4.0</span>}
+                </h1>
+                {/* Author info removed from here for Expanded state, moved to bottom */}
               </div>
-           </div>
-                  
-           {/* Search & Tags Unified Container */}
-           <div className={`transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] ${isTemplateExpanded ? 'max-w-2xl mx-auto mt-2' : 'mt-3'}`}>
-                {/* Search Box */}
-                <div className="relative group">
-                    <Search className={`absolute top-1/2 -translate-y-1/2 text-gray-400 transition-all duration-500 ${isTemplateExpanded ? 'left-4 w-5 h-5' : 'left-3 w-0 h-0 opacity-0'}`} />
-                    <input
-                      type="text"
-                      placeholder={t('search_templates')}
-                      value={searchQuery}
-                      onChange={(e) => setSearchQuery(e.target.value)}
-                      className={`
+            </div>
+
+            {/* Right Actions (Toggle & Lang) */}
+            <div className={`flex items-center gap-2 transition-all duration-500 ${isTemplateExpanded ? 'absolute right-0 top-0' : ''}`}>
+              <button
+                onClick={handleRefreshSystemData}
+                className="p-1.5 text-gray-500 hover:text-orange-600 hover:bg-orange-50 rounded-lg transition-colors"
+                title={t('refresh_desc')}
+              >
+                <RotateCcw size={16} />
+              </button>
+              <button
+                onClick={() => setLanguage(language === 'cn' ? 'en' : 'cn')}
+                className="text-[10px] bg-white/80 text-gray-500 px-2 py-1 rounded-full hover:text-orange-600 hover:bg-orange-50 border border-gray-200/50 transition-colors flex items-center gap-1 shadow-sm"
+              >
+                <Globe size={10} />
+                {language.toUpperCase()}
+              </button>
+
+              <button
+                onClick={() => setIsSettingsOpen(true)}
+                className="p-1.5 text-gray-500 hover:text-orange-600 hover:bg-orange-50 rounded-lg transition-colors"
+                title={t('settings')}
+              >
+                <Settings size={16} />
+              </button>
+
+              <button
+                onClick={() => setIsTemplateExpanded(!isTemplateExpanded)}
+                className="p-1.5 text-gray-500 hover:text-orange-600 hover:bg-orange-50 rounded-lg transition-colors"
+                title={isTemplateExpanded ? t('collapse_view') : t('expand_view')}
+              >
+                {isTemplateExpanded ? <Sidebar size={16} /> : <LayoutGrid size={16} />}
+              </button>
+            </div>
+          </div>
+
+          {/* Subtitle & Info (Collapsed Only) - Fade out when expanded */}
+          <div className={`transition-all duration-500 overflow-hidden ${isTemplateExpanded ? 'max-h-0 opacity-0' : 'max-h-20 opacity-100'}`}>
+            <div className="flex items-center gap-2 text-gray-800 mb-1">
+              {/* Collapsed state title/subtitle logic removed, only showing unified header content */}
+            </div>
+          </div>
+
+          {/* Search & Tags Unified Container */}
+          <div className={`transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] ${isTemplateExpanded ? 'max-w-2xl mx-auto mt-2' : 'mt-3'}`}>
+            {/* Search Box */}
+            <div className="relative group">
+              <Search className={`absolute top-1/2 -translate-y-1/2 text-gray-400 transition-all duration-500 ${isTemplateExpanded ? 'left-4 w-5 h-5' : 'left-3 w-0 h-0 opacity-0'}`} />
+              <input
+                type="text"
+                placeholder={t('search_templates')}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className={`
                         w-full transition-all duration-500 ease-out
                         focus:outline-none focus:ring-2 focus:ring-orange-200 focus:border-orange-400
-                        ${isTemplateExpanded 
-                            ? 'pl-12 pr-4 py-3 bg-white border border-gray-200 rounded-full shadow-sm text-base' 
-                            : 'px-3 py-2 text-sm bg-white/60 border border-gray-200/50 rounded-lg'
-                        }
+                        ${isTemplateExpanded
+                    ? 'pl-12 pr-4 py-3 bg-white border border-gray-200 rounded-full shadow-sm text-base'
+                    : 'px-3 py-2 text-sm bg-white/60 border border-gray-200/50 rounded-lg'
+                  }
                       `}
-                    />
-                </div>
-                
-                {/* Tag Filters */}
-                <div className={`mt-3 transition-all duration-500 ${isTemplateExpanded ? 'flex flex-col items-center gap-2' : ''}`}>
-                    {!isTemplateExpanded && <p className="text-xs text-gray-500 mb-2">{t('filter_by_tags')}</p>}
-                    
-                    <div className={`flex flex-wrap gap-1.5 transition-all duration-500 ${isTemplateExpanded ? 'justify-center' : ''}`}>
-                      <button
-                        onClick={() => setSelectedTags("")}
-                        className={`font-medium transition-all duration-300 ${
-                          selectedTags === ""
-                            ? 'bg-orange-500 text-white shadow-sm'
-                            : 'bg-white/60 text-gray-500 hover:bg-white border border-gray-200/50'
-                        } ${isTemplateExpanded ? 'px-4 py-1.5 rounded-full text-sm' : 'px-2.5 py-1 rounded-full text-xs'}`}
-                      >
-                        {t('all_templates')}
-                      </button>
-                      {TEMPLATE_TAGS.map(tag => (
-                        <button
-                          key={tag}
-                          onClick={() => toggleTag(tag)}
-                          className={`font-medium transition-all duration-300 ${
-                            selectedTags === tag
-                              ? 'bg-orange-500 text-white shadow-sm'
-                              : 'bg-white/60 text-gray-500 hover:bg-white border border-gray-200/50'
-                          } ${isTemplateExpanded ? 'px-4 py-1.5 rounded-full text-sm' : 'px-2.5 py-1 rounded-full text-xs'}`}
-                        >
-                          {displayTag(tag)}
-                        </button>
-                      ))}
-                    </div>
-                </div>
-           </div>
+              />
+            </div>
+
+            {/* Tag Filters */}
+            <div className={`mt-3 transition-all duration-500 ${isTemplateExpanded ? 'flex flex-col items-center gap-2' : ''}`}>
+              {!isTemplateExpanded && <p className="text-xs text-gray-500 mb-2">{t('filter_by_tags')}</p>}
+
+              <div className={`flex flex-wrap gap-1.5 transition-all duration-500 ${isTemplateExpanded ? 'justify-center' : ''}`}>
+                <button
+                  onClick={() => setSelectedTags("")}
+                  className={`font-medium transition-all duration-300 ${selectedTags === ""
+                    ? 'bg-orange-500 text-white shadow-sm'
+                    : 'bg-white/60 text-gray-500 hover:bg-white border border-gray-200/50'
+                    } ${isTemplateExpanded ? 'px-4 py-1.5 rounded-full text-sm' : 'px-2.5 py-1 rounded-full text-xs'}`}
+                >
+                  {t('all_templates')}
+                </button>
+                {TEMPLATE_TAGS.map(tag => (
+                  <button
+                    key={tag}
+                    onClick={() => toggleTag(tag)}
+                    className={`font-medium transition-all duration-300 ${selectedTags === tag
+                      ? 'bg-orange-500 text-white shadow-sm'
+                      : 'bg-white/60 text-gray-500 hover:bg-white border border-gray-200/50'
+                      } ${isTemplateExpanded ? 'px-4 py-1.5 rounded-full text-sm' : 'px-2.5 py-1 rounded-full text-xs'}`}
+                  >
+                    {displayTag(tag)}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Content Area */}
         <div className={`flex-1 overflow-y-auto custom-scrollbar transition-all duration-500 ${isTemplateExpanded ? 'p-8' : 'p-3 space-y-2'}`}>
           {isTemplateExpanded ? (
-             /* --- Expanded Grid View --- */
-             <div className="max-w-7xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-500">
-                 <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6 pb-20">
+            /* --- Expanded Grid View --- */
+            <div className="max-w-7xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-500">
+              <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6 pb-20">
 
-                    {/* New Template Card (First Item) */}
-                    <div 
-                        onClick={() => {
-                            handleAddTemplate();
-                            setIsTemplateExpanded(false);
-                        }}
-                        className="break-inside-avoid rounded-[36px] hover:shadow-2xl transition-all duration-300 cursor-pointer group p-2.5 relative overflow-hidden flex flex-col items-center justify-center min-h-[300px]"
-                        style={{
-                            background: 'rgba(200, 200, 200, 0.4)',
-                            backdropFilter: 'blur(100px)',
-                            WebkitBackdropFilter: 'blur(100px)',
-                            border: '2px dashed transparent',
-                            backgroundImage: 'linear-gradient(rgba(200, 200, 200, 0.4), rgba(200, 200, 200, 0.4)), linear-gradient(219deg, rgba(238, 162, 139, 0.5) -6%, rgba(255, 216, 204, 0.4) 8%, rgba(196, 196, 196, 0.05) 21%, rgba(196, 196, 196, 0.09) 77%, rgba(255, 255, 255, 0.35) 90%, rgba(251, 177, 69, 0.2) 100%, rgba(247, 189, 172, 0.5) 110%)',
-                            backgroundOrigin: 'border-box',
-                            backgroundClip: 'padding-box, border-box'
-                        }}
+                {/* New Template Card (First Item) */}
+                <div
+                  onClick={() => {
+                    handleAddTemplate();
+                    setIsTemplateExpanded(false);
+                  }}
+                  className="break-inside-avoid rounded-[36px] hover:shadow-2xl transition-all duration-300 cursor-pointer group p-2.5 relative overflow-hidden flex flex-col items-center justify-center min-h-[300px]"
+                  style={{
+                    background: 'rgba(200, 200, 200, 0.4)',
+                    backdropFilter: 'blur(100px)',
+                    WebkitBackdropFilter: 'blur(100px)',
+                    border: '2px dashed transparent',
+                    backgroundImage: 'linear-gradient(rgba(200, 200, 200, 0.4), rgba(200, 200, 200, 0.4)), linear-gradient(219deg, rgba(238, 162, 139, 0.5) -6%, rgba(255, 216, 204, 0.4) 8%, rgba(196, 196, 196, 0.05) 21%, rgba(196, 196, 196, 0.09) 77%, rgba(255, 255, 255, 0.35) 90%, rgba(251, 177, 69, 0.2) 100%, rgba(247, 189, 172, 0.5) 110%)',
+                    backgroundOrigin: 'border-box',
+                    backgroundClip: 'padding-box, border-box'
+                  }}
+                >
+                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-orange-100/60 to-orange-200/60 backdrop-blur-sm text-orange-500 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform shadow-md border border-white/40">
+                    <Plus size={36} strokeWidth={2.5} />
+                  </div>
+                  <h3 className="font-bold text-gray-800 text-lg group-hover:text-orange-600 transition-colors">{t('new_template')}</h3>
+                </div>
+
+                {/* Filtered Templates */}
+                {filteredTemplates.map(t_item => (
+                  <div
+                    key={t_item.id}
+                    onClick={() => {
+                      setActiveTemplateId(t_item.id);
+                      setIsTemplateExpanded(false);
+                    }}
+                    className="break-inside-avoid rounded-[36px] hover:shadow-2xl transition-all duration-300 cursor-pointer group p-2.5 relative overflow-hidden"
+                    style={{
+                      background: 'rgba(230, 230, 230, 0.4)',
+                      backdropFilter: 'blur(40px)',
+                      WebkitBackdropFilter: 'blur(40px)',
+                      border: '2px solid transparent',
+                      backgroundImage: 'linear-gradient(rgba(200, 200, 200, 0.4), rgba(200, 200, 200, 0.4)), linear-gradient(219deg, rgba(238, 162, 139, 0.6) -6%, rgba(255, 216, 204, 0.49) 8%, rgba(196, 196, 196, 0.05) 21%, rgba(196, 196, 196, 0.09) 77%, rgba(255, 255, 255, 0.38) 90%, rgba(251, 177, 69, 0.22) 100%, rgba(247, 189, 172, 0.6) 110%)',
+                      backgroundOrigin: 'border-box',
+                      backgroundClip: 'padding-box, border-box'
+                    }}
+                  >
+                    {/* Image Area with Embedded Glass Effect */}
+                    <div
+                      className="relative w-full overflow-hidden rounded-[28px] bg-gradient-to-br from-gray-100 to-gray-200"
+                      style={{
+                        boxShadow: 'inset 0 2px 8px rgba(0, 0, 0, 0.15), 0 -2px 6px rgba(0, 0, 0, 0.08)'
+                      }}
                     >
-                        <div className="w-20 h-20 rounded-full bg-gradient-to-br from-orange-100/60 to-orange-200/60 backdrop-blur-sm text-orange-500 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform shadow-md border border-white/40">
-                            <Plus size={36} strokeWidth={2.5} />
+                      {t_item.imageUrl ? (
+                        <img
+                          src={t_item.imageUrl}
+                          alt={t_item.name}
+                          className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500 rounded-[28px]"
+                          style={{
+                            boxShadow: 'inset 0 4px 12px rgba(0, 0, 0, 0.12)'
+                          }}
+                          referrerPolicy="no-referrer"
+                        />
+                      ) : (
+                        <div
+                          className="w-full aspect-square bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-300 rounded-[28px]"
+                          style={{
+                            boxShadow: 'inset 0 4px 12px rgba(0, 0, 0, 0.12)'
+                          }}
+                        >
+                          <ImageIcon size={48} strokeWidth={1} />
                         </div>
-                        <h3 className="font-bold text-gray-800 text-lg group-hover:text-orange-600 transition-colors">{t('new_template')}</h3>
+                      )}
+                      {/* Overlay Actions */}
+                      <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity flex gap-2 z-10">
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setZoomedImage(t_item.imageUrl);
+                          }}
+                          className="p-2 bg-black/50 text-white rounded-full hover:bg-black/70 backdrop-blur-sm"
+                          title="查看大图"
+                        >
+                          <Maximize2 size={14} />
+                        </button>
+                      </div>
                     </div>
 
-                    {/* Filtered Templates */}
-                    {filteredTemplates.map(t_item => (
-                        <div 
-                            key={t_item.id}
-                            onClick={() => {
-                                setActiveTemplateId(t_item.id);
-                                setIsTemplateExpanded(false);
-                            }}
-                            className="break-inside-avoid rounded-[36px] hover:shadow-2xl transition-all duration-300 cursor-pointer group p-2.5 relative overflow-hidden"
-                            style={{
-                                background: 'rgba(230, 230, 230, 0.4)',
-                                backdropFilter: 'blur(40px)',
-                                WebkitBackdropFilter: 'blur(40px)',
-                                border: '2px solid transparent',
-                                backgroundImage: 'linear-gradient(rgba(200, 200, 200, 0.4), rgba(200, 200, 200, 0.4)), linear-gradient(219deg, rgba(238, 162, 139, 0.6) -6%, rgba(255, 216, 204, 0.49) 8%, rgba(196, 196, 196, 0.05) 21%, rgba(196, 196, 196, 0.09) 77%, rgba(255, 255, 255, 0.38) 90%, rgba(251, 177, 69, 0.22) 100%, rgba(247, 189, 172, 0.6) 110%)',
-                                backgroundOrigin: 'border-box',
-                                backgroundClip: 'padding-box, border-box'
-                            }}
-                        >
-                            {/* Image Area with Embedded Glass Effect */}
-                            <div 
-                                className="relative w-full overflow-hidden rounded-[28px] bg-gradient-to-br from-gray-100 to-gray-200"
-                                style={{
-                                    boxShadow: 'inset 0 2px 8px rgba(0, 0, 0, 0.15), 0 -2px 6px rgba(0, 0, 0, 0.08)'
-                                }}
-                            >
-                                {t_item.imageUrl ? (
-                                    <img 
-                                        src={t_item.imageUrl} 
-                                        alt={t_item.name} 
-                                        className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500 rounded-[28px]"
-                                        style={{
-                                            boxShadow: 'inset 0 4px 12px rgba(0, 0, 0, 0.12)'
-                                        }}
-                                        referrerPolicy="no-referrer"
-                                    />
-                                ) : (
-                                    <div 
-                                        className="w-full aspect-square bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-300 rounded-[28px]"
-                                        style={{
-                                            boxShadow: 'inset 0 4px 12px rgba(0, 0, 0, 0.12)'
-                                        }}
-                                    >
-                                        <ImageIcon size={48} strokeWidth={1} />
-                                    </div>
-                                )}
-                                {/* Overlay Actions */}
-                                <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity flex gap-2 z-10">
-                                     <button 
-                                        onClick={(e) => {
-                                            e.stopPropagation();
-                                            setZoomedImage(t_item.imageUrl);
-                                        }}
-                                        className="p-2 bg-black/50 text-white rounded-full hover:bg-black/70 backdrop-blur-sm"
-                                        title="查看大图"
-                                     >
-                                        <Maximize2 size={14} />
-                                    </button>
-                                </div>
-                            </div>
+                    {/* Info Area - Simplified for expanded view (hide author/date/tags) */}
+                    <div className="px-3 pt-5 pb-6">
+                      <h3 className="font-bold text-gray-800 text-lg leading-tight group-hover:text-orange-600 transition-colors">
+                        {t_item.name}
+                      </h3>
+                    </div>
+                  </div>
+                ))}
+              </div>
 
-                            {/* Info Area - Simplified for expanded view (hide author/date/tags) */}
-                            <div className="px-3 pt-5 pb-6">
-                                <h3 className="font-bold text-gray-800 text-lg leading-tight group-hover:text-orange-600 transition-colors">
-                                    {t_item.name}
-                                </h3>
-                            </div>
-                        </div>
-                    ))}
-                 </div>
-                 
-                 {/* Expanded View Footer Author Info */}
-                 <div className="w-full text-center py-8 text-xs opacity-60" style={{ color: 'rgb(220,220,220)' }}>
-                    <p>{t('author_info')}</p>
-                 </div>
-             </div>
+              {/* Expanded View Footer Author Info */}
+              <div className="w-full text-center py-8 text-xs opacity-60" style={{ color: 'rgb(220,220,220)' }}>
+                <p>{t('author_info')}</p>
+              </div>
+            </div>
           ) : (
             /* --- Compact List View --- */
             filteredTemplates.map(t_item => (
-             <div 
-               key={t_item.id}
-               onClick={() => {
-                   setActiveTemplateId(t_item.id);
-                   // On mobile, auto-switch to editor after selection
-                   if (window.innerWidth < 768) {
-                       setMobileTab('editor');
-                   }
-               }}
-               className={`
+              <div
+                key={t_item.id}
+                onClick={() => {
+                  setActiveTemplateId(t_item.id);
+                  // On mobile, auto-switch to editor after selection
+                  if (window.innerWidth < 768) {
+                    setMobileTab('editor');
+                  }
+                }}
+                className={`
                  group flex flex-col px-3 py-2.5 rounded-xl cursor-pointer transition-all duration-200
-                 ${activeTemplateId === t_item.id 
-                    ? 'bg-white shadow-md ring-1 ring-orange-50 border border-orange-100' 
+                 ${activeTemplateId === t_item.id
+                    ? 'bg-white shadow-md ring-1 ring-orange-50 border border-orange-100'
                     : 'text-gray-600 hover:bg-white/50 hover:text-gray-900 border border-transparent'}
                `}
-             >
-               {editingTemplateNameId === t_item.id ? (
-                 <input 
-                   autoFocus
-                   type="text"
-                   value={tempTemplateName}
-                   onChange={(e) => setTempTemplateName(e.target.value)}
-                   onBlur={saveTemplateName}
-                   onKeyDown={(e) => e.key === 'Enter' && saveTemplateName()}
-                   className="bg-white text-gray-800 text-sm px-2 py-1 rounded-lg w-full outline-none border-2 border-orange-400/50 shadow-sm"
-                   onClick={(e) => e.stopPropagation()}
-                 />
-               ) : (
-                 <>
-                   <div className="flex items-center justify-between">
-                     <div className="flex items-center gap-2 overflow-hidden flex-1">
-                       {/* Active Indicator */}
-                       {activeTemplateId === t_item.id && (
-                           <div className="w-1 h-4 bg-orange-500 rounded-full flex-shrink-0 animate-in fade-in zoom-in duration-300"></div>
-                       )}
-                       <span className={`truncate text-sm ${activeTemplateId === t_item.id ? 'font-bold text-gray-800' : 'font-medium'}`}>{t_item.name}</span>
-                     </div>
-                     <div className={`flex items-center gap-1 ${activeTemplateId === t_item.id ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'} transition-opacity`}>
-                       {INITIAL_TEMPLATES_CONFIG.some(cfg => cfg.id === t_item.id) && (
-                         <button 
-                           title={t('reset_template')}
-                           onClick={(e) => handleResetTemplate(t_item.id, e)}
-                           className="p-1 hover:bg-orange-50 rounded text-gray-400 hover:text-orange-500"
-                         >
-                           <RotateCcw size={12} />
-                         </button>
-                       )}
-                       <button 
-                         title={t('rename')}
+              >
+                {editingTemplateNameId === t_item.id ? (
+                  <input
+                    autoFocus
+                    type="text"
+                    value={tempTemplateName}
+                    onChange={(e) => setTempTemplateName(e.target.value)}
+                    onBlur={saveTemplateName}
+                    onKeyDown={(e) => e.key === 'Enter' && saveTemplateName()}
+                    className="bg-white text-gray-800 text-sm px-2 py-1 rounded-lg w-full outline-none border-2 border-orange-400/50 shadow-sm"
+                    onClick={(e) => e.stopPropagation()}
+                  />
+                ) : (
+                  <>
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2 overflow-hidden flex-1">
+                        {/* Active Indicator */}
+                        {activeTemplateId === t_item.id && (
+                          <div className="w-1 h-4 bg-orange-500 rounded-full flex-shrink-0 animate-in fade-in zoom-in duration-300"></div>
+                        )}
+                        <span className={`truncate text-sm ${activeTemplateId === t_item.id ? 'font-bold text-gray-800' : 'font-medium'}`}>{t_item.name}</span>
+                      </div>
+                      <div className={`flex items-center gap-1 ${activeTemplateId === t_item.id ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'} transition-opacity`}>
+                        {INITIAL_TEMPLATES_CONFIG.some(cfg => cfg.id === t_item.id) && (
+                          <button
+                            title={t('reset_template')}
+                            onClick={(e) => handleResetTemplate(t_item.id, e)}
+                            className="p-1 hover:bg-orange-50 rounded text-gray-400 hover:text-orange-500"
+                          >
+                            <RotateCcw size={12} />
+                          </button>
+                        )}
+                        <button
+                          title={t('rename')}
                           onClick={(e) => startRenamingTemplate(t_item, e)}
                           className="p-1 hover:bg-gray-100 rounded text-gray-400 hover:text-orange-600"
                         >
                           <Pencil size={12} />
                         </button>
-                        <button 
+                        <button
                           title={t('duplicate')}
                           onClick={(e) => handleDuplicateTemplate(t_item, e)}
                           className="p-1 hover:bg-gray-100 rounded text-gray-400 hover:text-orange-600"
                         >
                           <CopyIcon size={12} />
                         </button>
-                        <button 
+                        <button
                           title={t('export_template')}
                           onClick={(e) => { e.stopPropagation(); handleExportTemplate(t_item); }}
                           className="p-1 hover:bg-blue-50 rounded text-gray-400 hover:text-blue-600"
                         >
                           <Download size={12} />
                         </button>
-                        <button 
+                        <button
                           title={t('delete')}
                           onClick={(e) => handleDeleteTemplate(t_item.id, e)}
                           className="p-1 hover:bg-red-50 rounded text-gray-400 hover:text-red-500"
@@ -2606,107 +2604,106 @@ const App = () => {
                           <Trash2 size={12} />
                         </button>
                       </div>
-                   </div>
-                   
-                  {/* Template Tags: only show when active to keep rows compact */}
-                  {editingTemplateTags?.id === t_item.id ? (
-                    <div className="mt-2 flex flex-wrap gap-1.5" onClick={(e) => e.stopPropagation()}>
-                      {TEMPLATE_TAGS.map(tag => (
-                        <button
-                          key={tag}
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            const currentTags = editingTemplateTags.tags || [];
-                            const newTags = currentTags.includes(tag)
-                              ? currentTags.filter(t => t !== tag)
-                              : [...currentTags, tag];
-                            setEditingTemplateTags({ id: t_item.id, tags: newTags });
-                          }}
-                          className={`px-2 py-0.5 rounded-full text-[10px] font-medium transition-all border ${
-                            (editingTemplateTags.tags || []).includes(tag)
+                    </div>
+
+                    {/* Template Tags: only show when active to keep rows compact */}
+                    {editingTemplateTags?.id === t_item.id ? (
+                      <div className="mt-2 flex flex-wrap gap-1.5" onClick={(e) => e.stopPropagation()}>
+                        {TEMPLATE_TAGS.map(tag => (
+                          <button
+                            key={tag}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              const currentTags = editingTemplateTags.tags || [];
+                              const newTags = currentTags.includes(tag)
+                                ? currentTags.filter(t => t !== tag)
+                                : [...currentTags, tag];
+                              setEditingTemplateTags({ id: t_item.id, tags: newTags });
+                            }}
+                            className={`px-2 py-0.5 rounded-full text-[10px] font-medium transition-all border ${(editingTemplateTags.tags || []).includes(tag)
                               ? 'bg-gray-800 text-white border-gray-800'
                               : 'bg-white text-gray-500 border-gray-200 hover:border-gray-300'
-                          }`}
+                              }`}
+                          >
+                            {displayTag(tag)}
+                          </button>
+                        ))}
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handleUpdateTemplateTags(t_item.id, editingTemplateTags.tags);
+                            setEditingTemplateTags(null);
+                          }}
+                          className="px-2 py-0.5 rounded-full text-[10px] font-medium bg-green-500 text-white hover:bg-green-600 border border-green-500"
                         >
-                          {displayTag(tag)}
+                          ✓ {t('confirm')}
                         </button>
-                      ))}
-                      <button
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleUpdateTemplateTags(t_item.id, editingTemplateTags.tags);
-                          setEditingTemplateTags(null);
-                        }}
-                        className="px-2 py-0.5 rounded-full text-[10px] font-medium bg-green-500 text-white hover:bg-green-600 border border-green-500"
-                      >
-                        ✓ {t('confirm')}
-                      </button>
-                    </div>
-                  ) : (
-                    (activeTemplateId === t_item.id) && (
-                      <div className="mt-2 flex flex-wrap gap-1.5 items-center">
-                        {(t_item.tags || []).length > 0 ? (
-                          <>
-                            {t_item.tags.map(tag => (
-                              <span
-                                key={tag}
-                                className={`px-2 py-0.5 rounded-full text-[10px] font-medium ${TAG_STYLES[tag] || TAG_STYLES["default"]}`}
+                      </div>
+                    ) : (
+                      (activeTemplateId === t_item.id) && (
+                        <div className="mt-2 flex flex-wrap gap-1.5 items-center">
+                          {(t_item.tags || []).length > 0 ? (
+                            <>
+                              {t_item.tags.map(tag => (
+                                <span
+                                  key={tag}
+                                  className={`px-2 py-0.5 rounded-full text-[10px] font-medium ${TAG_STYLES[tag] || TAG_STYLES["default"]}`}
+                                >
+                                  {displayTag(tag)}
+                                </span>
+                              ))}
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  setEditingTemplateTags({ id: t_item.id, tags: t_item.tags || [] });
+                                }}
+                                className="px-2 py-0.5 rounded-full text-[10px] font-medium transition-all bg-gray-50 text-gray-400 hover:bg-gray-100 hover:text-gray-600 border border-gray-100"
+                                title={t('edit_tags')}
                               >
-                                {displayTag(tag)}
-                              </span>
-                            ))}
+                                ✎
+                              </button>
+                            </>
+                          ) : (
                             <button
                               onClick={(e) => {
                                 e.stopPropagation();
-                                setEditingTemplateTags({ id: t_item.id, tags: t_item.tags || [] });
+                                setEditingTemplateTags({ id: t_item.id, tags: [] });
                               }}
                               className="px-2 py-0.5 rounded-full text-[10px] font-medium transition-all bg-gray-50 text-gray-400 hover:bg-gray-100 hover:text-gray-600 border border-gray-100"
-                              title={t('edit_tags')}
                             >
-                              ✎
+                              + {t('add_tags')}
                             </button>
-                          </>
-                        ) : (
-                          <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              setEditingTemplateTags({ id: t_item.id, tags: [] });
-                            }}
-                            className="px-2 py-0.5 rounded-full text-[10px] font-medium transition-all bg-gray-50 text-gray-400 hover:bg-gray-100 hover:text-gray-600 border border-gray-100"
-                          >
-                            + {t('add_tags')}
-                          </button>
-                        )}
-                      </div>
-                    )
-                  )}
-                 </>
-               )}
-             </div>
-          )))}
+                          )}
+                        </div>
+                      )
+                    )}
+                  </>
+                )}
+              </div>
+            )))}
         </div>
 
-       {/* Create New Button (List View Only) */}
-       {!isTemplateExpanded && (
-            <>
-               <div className="p-4 border-t border-gray-200/50 bg-white/30 backdrop-blur-sm pb-20 md:pb-4 space-y-3">
-                <PremiumButton
-                    onClick={handleAddTemplate}
-                    icon={Plus}
-                    color="orange"
-                    active={true}
-                    className="w-full !py-2.5 text-sm transition-all duration-300 transform hover:-translate-y-0.5"
-                >
-                    {t('new_template')}
-                </PremiumButton>
+        {/* Create New Button (List View Only) */}
+        {!isTemplateExpanded && (
+          <>
+            <div className="p-4 border-t border-gray-200/50 bg-white/30 backdrop-blur-sm pb-20 md:pb-4 space-y-3">
+              <PremiumButton
+                onClick={handleAddTemplate}
+                icon={Plus}
+                color="orange"
+                active={true}
+                className="w-full !py-2.5 text-sm transition-all duration-300 transform hover:-translate-y-0.5"
+              >
+                {t('new_template')}
+              </PremiumButton>
 
-                </div>
-                
-                {/* Footer Info (Replaced with translated Author Info) */}
-                <div className="hidden md:block p-4 pt-0 border-t border-transparent text-[10px] leading-relaxed text-center opacity-60 hover:opacity-100 transition-opacity" style={{ color: 'rgb(220,220,220)' }}>
-                    <p>{t('author_info')}</p>
-                </div>
-            </>
+            </div>
+
+            {/* Footer Info (Replaced with translated Author Info) */}
+            <div className="hidden md:block p-4 pt-0 border-t border-transparent text-[10px] leading-relaxed text-center opacity-60 hover:opacity-100 transition-opacity" style={{ color: 'rgb(220,220,220)' }}>
+              <p>{t('author_info')}</p>
+            </div>
+          </>
         )}
       </div>
 
@@ -2720,389 +2717,389 @@ const App = () => {
           transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] origin-left
           ${isTemplateExpanded ? 'max-w-0 opacity-0 md:p-0 md:border-0' : 'max-w-full opacity-100'}
       `}>
-        
+
         {/* 顶部工具栏 */}
         <div className="px-4 md:px-6 py-3 md:py-4 border-b border-gray-100/50 flex justify-between items-center z-20 h-auto min-h-[60px] md:min-h-[72px] bg-white/50 backdrop-blur-sm">
           <div className="min-w-0 flex-1 mr-2 flex flex-col justify-center">
             <h1 className="text-base md:text-lg font-bold text-gray-800 truncate">{activeTemplate.name}</h1>
-            
+
             {/* 标签和状态栏 */}
             <div className="flex flex-wrap items-center gap-2 mt-1">
-                {/* 状态指示器 */}
-                <div className="hidden md:flex items-center gap-1.5 border-r border-gray-200 pr-2 mr-0.5">
-                    <span className={`w-1.5 h-1.5 rounded-full ${isEditing ? 'bg-amber-400 animate-pulse' : 'bg-green-400'}`}></span>
-                    <p className="text-[10px] text-gray-400 font-medium uppercase tracking-wide">
-                        {isEditing ? t('editing_status') : t('preview_status')}
-                    </p>
-                </div>
+              {/* 状态指示器 */}
+              <div className="hidden md:flex items-center gap-1.5 border-r border-gray-200 pr-2 mr-0.5">
+                <span className={`w-1.5 h-1.5 rounded-full ${isEditing ? 'bg-amber-400 animate-pulse' : 'bg-green-400'}`}></span>
+                <p className="text-[10px] text-gray-400 font-medium uppercase tracking-wide">
+                  {isEditing ? t('editing_status') : t('preview_status')}
+                </p>
+              </div>
 
-                {/* Tags */}
-                {(activeTemplate.tags || []).map(tag => (
-                    <span 
-                        key={tag} 
-                        className={`px-1.5 py-0.5 rounded text-[10px] font-medium border ${TAG_STYLES[tag] || TAG_STYLES["default"]}`}
-                    >
-                        {displayTag(tag)}
-                    </span>
-                ))}
+              {/* Tags */}
+              {(activeTemplate.tags || []).map(tag => (
+                <span
+                  key={tag}
+                  className={`px-1.5 py-0.5 rounded text-[10px] font-medium border ${TAG_STYLES[tag] || TAG_STYLES["default"]}`}
+                >
+                  {displayTag(tag)}
+                </span>
+              ))}
             </div>
           </div>
-          
+
           <div className="flex items-center gap-2 md:gap-3 self-start md:self-center">
-             
-             <div className="flex bg-gray-100/80 p-1 rounded-xl border border-gray-200 shadow-inner">
-                <button
-                    onClick={() => setIsEditing(false)}
-                    className={`
+
+            <div className="flex bg-gray-100/80 p-1 rounded-xl border border-gray-200 shadow-inner">
+              <button
+                onClick={() => setIsEditing(false)}
+                className={`
                         p-1.5 md:px-3 md:py-1.5 rounded-lg text-sm font-medium transition-all duration-300 flex items-center gap-1.5
-                        ${!isEditing 
-                            ? 'bg-white text-orange-600 shadow-sm ring-1 ring-black/5' 
-                            : 'text-gray-500 hover:text-gray-900 hover:bg-gray-50'}
+                        ${!isEditing
+                    ? 'bg-white text-orange-600 shadow-sm ring-1 ring-black/5'
+                    : 'text-gray-500 hover:text-gray-900 hover:bg-gray-50'}
                     `}
-                    title={t('preview_mode')}
-                >
-                    <Eye size={16} /> <span className="hidden md:inline">{t('preview_mode')}</span>
-                </button>
-                <button
-                    onClick={() => setIsEditing(true)}
-                    className={`
+                title={t('preview_mode')}
+              >
+                <Eye size={16} /> <span className="hidden md:inline">{t('preview_mode')}</span>
+              </button>
+              <button
+                onClick={() => setIsEditing(true)}
+                className={`
                         p-1.5 md:px-3 md:py-1.5 rounded-lg text-sm font-medium transition-all duration-300 flex items-center gap-1.5
-                        ${isEditing 
-                            ? 'bg-white text-orange-600 shadow-sm ring-1 ring-black/5' 
-                            : 'text-gray-500 hover:text-gray-900 hover:bg-gray-50'}
+                        ${isEditing
+                    ? 'bg-white text-orange-600 shadow-sm ring-1 ring-black/5'
+                    : 'text-gray-500 hover:text-gray-900 hover:bg-gray-50'}
                     `}
-                    title={t('edit_mode')}
-                >
-                    <Edit3 size={16} /> <span className="hidden md:inline">{t('edit_mode')}</span>
-                </button>
-             </div>
+                title={t('edit_mode')}
+              >
+                <Edit3 size={16} /> <span className="hidden md:inline">{t('edit_mode')}</span>
+              </button>
+            </div>
 
             <div className="h-6 w-px bg-gray-200 mx-1 hidden md:block"></div>
 
-            <PremiumButton 
-                onClick={handleExportImage} 
-                disabled={isEditing} 
-                title={t('export_image')} 
-                icon={ImageIcon} 
-                color="orange"
+            <PremiumButton
+              onClick={handleExportImage}
+              disabled={isEditing}
+              title={t('export_image')}
+              icon={ImageIcon}
+              color="orange"
             >
-                <span className="hidden sm:inline">{t('export_image')}</span>
+              <span className="hidden sm:inline">{t('export_image')}</span>
             </PremiumButton>
 
-            <PremiumButton 
-                onClick={handleCopy} 
-                title={copied ? t('copied') : t('copy_result')} 
-                icon={copied ? Check : CopyIcon} 
-                color={copied ? "emerald" : "orange"}
-                active={true} // Always active look for CTA
-                className="transition-all duration-300 transform hover:-translate-y-0.5"
+            <PremiumButton
+              onClick={handleCopy}
+              title={copied ? t('copied') : t('copy_result')}
+              icon={copied ? Check : CopyIcon}
+              color={copied ? "emerald" : "orange"}
+              active={true} // Always active look for CTA
+              className="transition-all duration-300 transform hover:-translate-y-0.5"
             >
-                 <span className="hidden md:inline ml-1">{copied ? t('copied') : t('copy_result')}</span>
+              <span className="hidden md:inline ml-1">{copied ? t('copied') : t('copy_result')}</span>
             </PremiumButton>
           </div>
         </div>
 
         {/* 核心内容区 */}
         <div className="flex-1 overflow-hidden relative pb-16 md:pb-0 flex flex-col bg-gradient-to-br from-white/60 to-gray-50/60">
-            {isEditing && (
-                <EditorToolbar 
-                    onInsertClick={() => setIsInsertModalOpen(true)}
-                    canUndo={historyPast.length > 0}
-                    canRedo={historyFuture.length > 0}
-                    onUndo={handleUndo}
-                    onRedo={handleRedo}
-                    t={t}
-                />
-            )}
-            
-            {isEditing ? (
-                <div className="flex-1 relative overflow-hidden">
-                    <VisualEditor
-                        ref={textareaRef}
-                        value={activeTemplate.content}
-                        onChange={(e) => updateActiveTemplateContent(e.target.value)}
-                        banks={banks}
-                        categories={categories}
-                    />
-                </div>
-            ) : (
-                <div className="w-full h-full relative overflow-hidden group">
-                     {/* Background Image Layer - Blurry Ambient Background */}
-                     <div 
-                        className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-700 opacity-60 blur-[80px] scale-125"
-                        style={{ 
-                            backgroundImage: activeTemplate.imageUrl ? `url(${activeTemplate.imageUrl})` : 'none',
-                        }}
-                     ></div>
-                     <div className="absolute inset-0 bg-white/10 backdrop-blur-xl"></div> {/* Additional Overlay for smoothness */}
+          {isEditing && (
+            <EditorToolbar
+              onInsertClick={() => setIsInsertModalOpen(true)}
+              canUndo={historyPast.length > 0}
+              canRedo={historyFuture.length > 0}
+              onUndo={handleUndo}
+              onRedo={handleRedo}
+              t={t}
+            />
+          )}
 
-                     <div className="w-full h-full overflow-y-auto px-3 py-4 md:p-8 custom-scrollbar relative z-10">
-                         <div 
-                            id="preview-card"
-                            className="max-w-4xl mx-auto bg-white/80 rounded-2xl md:rounded-[2rem] shadow-xl md:shadow-2xl shadow-orange-900/10 border border-white/60 p-4 sm:p-6 md:p-12 min-h-[500px] md:min-h-[600px] backdrop-blur-2xl transition-all duration-500 relative"
-                         >
-                            {/* --- Top Section: Title & Image --- */}
-                            <div className="flex flex-col md:flex-row justify-between items-start mb-6 md:mb-10 relative">
-                                {/* Left: Title & Meta Info */}
-                                <div className="flex-1 min-w-0 pr-4 z-10 pt-2">
-                                    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3 tracking-tight leading-tight">
-                                        {activeTemplate.name}
-                                    </h2>
-                                    {/* Tags / Meta (Example) */}
-                                    <div className="flex flex-wrap gap-2 mb-2">
-<span className="px-2.5 py-1 rounded-md bg-orange-50 text-orange-600 text-xs font-bold tracking-wide border border-orange-100/50">
-    V0.4.0
-</span>
-                                        <span className="px-2.5 py-1 rounded-md bg-amber-50 text-amber-600 text-xs font-bold tracking-wide border border-amber-100/50">
-                                            Prompt Template
-                                        </span>
-                                    </div>
-                                    <p className="text-gray-400 text-sm font-medium mt-2">
-                                        Made by "提示词填空器"
-                                    </p>
+          {isEditing ? (
+            <div className="flex-1 relative overflow-hidden">
+              <VisualEditor
+                ref={textareaRef}
+                value={activeTemplate.content}
+                onChange={(e) => updateActiveTemplateContent(e.target.value)}
+                banks={banks}
+                categories={categories}
+              />
+            </div>
+          ) : (
+            <div className="w-full h-full relative overflow-hidden group">
+              {/* Background Image Layer - Blurry Ambient Background */}
+              <div
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-700 opacity-60 blur-[80px] scale-125"
+                style={{
+                  backgroundImage: activeTemplate.imageUrl ? `url(${activeTemplate.imageUrl})` : 'none',
+                }}
+              ></div>
+              <div className="absolute inset-0 bg-white/10 backdrop-blur-xl"></div> {/* Additional Overlay for smoothness */}
+
+              <div className="w-full h-full overflow-y-auto px-3 py-4 md:p-8 custom-scrollbar relative z-10">
+                <div
+                  id="preview-card"
+                  className="max-w-4xl mx-auto bg-white/80 rounded-2xl md:rounded-[2rem] shadow-xl md:shadow-2xl shadow-orange-900/10 border border-white/60 p-4 sm:p-6 md:p-12 min-h-[500px] md:min-h-[600px] backdrop-blur-2xl transition-all duration-500 relative"
+                >
+                  {/* --- Top Section: Title & Image --- */}
+                  <div className="flex flex-col md:flex-row justify-between items-start mb-6 md:mb-10 relative">
+                    {/* Left: Title & Meta Info */}
+                    <div className="flex-1 min-w-0 pr-4 z-10 pt-2">
+                      <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3 tracking-tight leading-tight">
+                        {activeTemplate.name}
+                      </h2>
+                      {/* Tags / Meta (Example) */}
+                      <div className="flex flex-wrap gap-2 mb-2">
+                        <span className="px-2.5 py-1 rounded-md bg-orange-50 text-orange-600 text-xs font-bold tracking-wide border border-orange-100/50">
+                          V0.4.0
+                        </span>
+                        <span className="px-2.5 py-1 rounded-md bg-amber-50 text-amber-600 text-xs font-bold tracking-wide border border-amber-100/50">
+                          Prompt Template
+                        </span>
+                      </div>
+                      <p className="text-gray-400 text-sm font-medium mt-2">
+                        Made by "提示词填空器"
+                      </p>
+                    </div>
+
+                    {/* Right: Image (Overhanging) - 使用像素值偏移 */}
+                    {/* Right: Image (Overhanging) - 使用像素值偏移 */}
+                    <div
+                      className="w-full md:w-auto mt-4 md:mt-0 relative md:-mr-[50px] md:-mt-[50px] z-20 flex-shrink-0"
+                      onMouseLeave={() => { setShowImageActionMenu(false); setShowImageUrlInput(false); }}
+                    >
+                      <div
+                        className="bg-white p-1.5 md:p-2 rounded-lg md:rounded-xl shadow-lg md:shadow-xl transform md:rotate-2 border border-gray-100/50 transition-all duration-300 hover:rotate-0 hover:scale-105 hover:shadow-2xl group/image w-full md:w-auto"
+                      >
+                        <div className={`relative overflow-hidden rounded-md md:rounded-lg bg-gray-50 flex items-center justify-center ${!activeTemplate.imageUrl ? 'w-full md:w-[300px] h-[300px]' : ''}`}>
+                          {/* Smart Image Container - 移动端全宽，桌面端固定尺寸 */}
+                          {activeTemplate.imageUrl ? (
+                            <img
+                              src={activeTemplate.imageUrl}
+                              referrerPolicy="no-referrer" // 保持这个以绕过防盗链
+                              alt="Template Preview"
+                              className="w-full md:w-auto md:max-w-[300px] md:max-h-[300px] h-auto object-contain block"
+                              onError={(e) => {
+                                e.target.style.display = 'none'; // 如果加载失败，直接隐藏，避免破碎图标
+                                e.target.parentElement.style.backgroundColor = '#f1f5f9'; // 给容器一个背景色
+                                // 可以选择显示一个文字提示
+                                const span = document.createElement('span');
+                                span.innerText = 'Image Failed';
+                                span.style.color = '#cbd5e1';
+                                span.style.fontSize = '12px';
+                                e.target.parentElement.appendChild(span);
+                              }}
+                            />
+                          ) : (
+                            <div
+                              className="flex flex-col items-center justify-center text-gray-300 p-4 text-center w-full h-full relative group/empty"
+                              onClick={(e) => e.stopPropagation()}
+                            >
+                              <ImageIcon size={48} strokeWidth={1.5} className="text-gray-300" />
+                              {/* Hover actions for empty state */}
+                              <div className="absolute inset-0 flex items-center justify-center opacity-0 pointer-events-none group-hover/empty:opacity-100 group-hover/empty:pointer-events-auto transition-opacity">
+                                <div className="bg-white/95 border border-gray-200 rounded-lg shadow-lg p-3 flex flex-col gap-2 min-w-[180px]">
+                                  <button
+                                    onClick={() => fileInputRef.current?.click()}
+                                    className="w-full px-3 py-2 text-sm text-left bg-orange-500 hover:bg-orange-600 text-white rounded-lg transition-all flex items-center gap-2 justify-center"
+                                  >
+                                    <ImageIcon size={16} />
+                                    {t('upload_image')}
+                                  </button>
+                                  <button
+                                    onClick={() => setShowImageUrlInput(true)}
+                                    className="w-full px-3 py-2 text-sm text-left bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-all flex items-center gap-2 justify-center"
+                                  >
+                                    <Globe size={16} />
+                                    {t('image_url')}
+                                  </button>
                                 </div>
+                              </div>
+                            </div>
+                          )}
 
-                                {/* Right: Image (Overhanging) - 使用像素值偏移 */}
-                                {/* Right: Image (Overhanging) - 使用像素值偏移 */}
-                                <div 
-                                    className="w-full md:w-auto mt-4 md:mt-0 relative md:-mr-[50px] md:-mt-[50px] z-20 flex-shrink-0"
-                                    onMouseLeave={() => { setShowImageActionMenu(false); setShowImageUrlInput(false); }}
+                          {/* Hidden File Input */}
+                          <input
+                            type="file"
+                            ref={fileInputRef}
+                            onChange={handleUploadImage}
+                            className="hidden"
+                            accept="image/*"
+                          />
+
+                          {/* Hover Overlay with Actions */}
+                          <div className={`absolute inset-0 bg-black/0 ${activeTemplate.imageUrl ? 'group-hover/image:bg-black/20' : 'group-hover/image:bg-black/5'} transition-colors duration-300 flex items-center justify-center gap-3 opacity-0 group-hover/image:opacity-100 backdrop-blur-[2px]`}>
+                            {/* View Big */}
+                            {activeTemplate.imageUrl && (
+                              <button
+                                onClick={(e) => { e.stopPropagation(); setZoomedImage(activeTemplate.imageUrl); }}
+                                className="p-2 bg-white/90 text-gray-700 rounded-full hover:bg-white hover:text-orange-600 transition-all shadow-lg transform translate-y-4 group-hover/image:translate-y-0 duration-300 hover:scale-110"
+                                title="查看大图"
+                              >
+                                <Maximize2 size={18} />
+                              </button>
+                            )}
+
+                            {/* Change Image - With Menu */}
+                            <div className="relative">
+                              <button
+                                onClick={(e) => { e.stopPropagation(); setShowImageActionMenu(!showImageActionMenu); }}
+                                className="p-2 bg-white/90 text-gray-700 rounded-full hover:bg-white hover:text-orange-600 transition-all shadow-lg transform translate-y-4 group-hover/image:translate-y-0 duration-300 delay-75 hover:scale-110"
+                                title="更换图片"
+                              >
+                                <ImageIcon size={18} />
+                              </button>
+
+                              {/* Dropdown Menu */}
+                              {showImageActionMenu && (
+                                <div
+                                  className="absolute top-full mt-2 right-0 bg-white rounded-lg shadow-xl border border-gray-200 overflow-hidden z-50 min-w-[140px]"
+                                  onClick={(e) => e.stopPropagation()}
                                 >
-                                    <div 
-                                        className="bg-white p-1.5 md:p-2 rounded-lg md:rounded-xl shadow-lg md:shadow-xl transform md:rotate-2 border border-gray-100/50 transition-all duration-300 hover:rotate-0 hover:scale-105 hover:shadow-2xl group/image w-full md:w-auto"
-                                    >
-                                        <div className={`relative overflow-hidden rounded-md md:rounded-lg bg-gray-50 flex items-center justify-center ${!activeTemplate.imageUrl ? 'w-full md:w-[300px] h-[300px]' : ''}`}>
-                                            {/* Smart Image Container - 移动端全宽，桌面端固定尺寸 */}
-                                            {activeTemplate.imageUrl ? (
-                                                <img 
-                                                    src={activeTemplate.imageUrl} 
-                                                    referrerPolicy="no-referrer" // 保持这个以绕过防盗链
-                                                    alt="Template Preview" 
-                                                    className="w-full md:w-auto md:max-w-[300px] md:max-h-[300px] h-auto object-contain block" 
-                                                    onError={(e) => {
-                                                        e.target.style.display = 'none'; // 如果加载失败，直接隐藏，避免破碎图标
-                                                        e.target.parentElement.style.backgroundColor = '#f1f5f9'; // 给容器一个背景色
-                                                        // 可以选择显示一个文字提示
-                                                        const span = document.createElement('span');
-                                                        span.innerText = 'Image Failed';
-                                                        span.style.color = '#cbd5e1';
-                                                        span.style.fontSize = '12px';
-                                                        e.target.parentElement.appendChild(span);
-                                                    }}
-                                                />
-                                            ) : (
-                                                <div 
-                                                    className="flex flex-col items-center justify-center text-gray-300 p-4 text-center w-full h-full relative group/empty"
-                                                    onClick={(e) => e.stopPropagation()}
-                                                >
-                                                    <ImageIcon size={48} strokeWidth={1.5} className="text-gray-300" />
-                                                    {/* Hover actions for empty state */}
-                                                    <div className="absolute inset-0 flex items-center justify-center opacity-0 pointer-events-none group-hover/empty:opacity-100 group-hover/empty:pointer-events-auto transition-opacity">
-                                                        <div className="bg-white/95 border border-gray-200 rounded-lg shadow-lg p-3 flex flex-col gap-2 min-w-[180px]">
-                                                            <button
-                                                                onClick={() => fileInputRef.current?.click()}
-                                                                className="w-full px-3 py-2 text-sm text-left bg-orange-500 hover:bg-orange-600 text-white rounded-lg transition-all flex items-center gap-2 justify-center"
-                                                            >
-                                                                <ImageIcon size={16} />
-                                                                {t('upload_image')}
-                                                            </button>
-                                                            <button
-                                                                onClick={() => setShowImageUrlInput(true)}
-                                                                className="w-full px-3 py-2 text-sm text-left bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-all flex items-center gap-2 justify-center"
-                                                            >
-                                                                <Globe size={16} />
-                                                                {t('image_url')}
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            )}
-                                            
-                                            {/* Hidden File Input */}
-                                            <input 
-                                                type="file" 
-                                                ref={fileInputRef} 
-                                                onChange={handleUploadImage} 
-                                                className="hidden" 
-                                                accept="image/*"
-                                            />
-
-                                            {/* Hover Overlay with Actions */}
-                                            <div className={`absolute inset-0 bg-black/0 ${activeTemplate.imageUrl ? 'group-hover/image:bg-black/20' : 'group-hover/image:bg-black/5'} transition-colors duration-300 flex items-center justify-center gap-3 opacity-0 group-hover/image:opacity-100 backdrop-blur-[2px]`}>
-                                                {/* View Big */}
-                                                {activeTemplate.imageUrl && (
-                                                    <button 
-                                                        onClick={(e) => { e.stopPropagation(); setZoomedImage(activeTemplate.imageUrl); }}
-                                                        className="p-2 bg-white/90 text-gray-700 rounded-full hover:bg-white hover:text-orange-600 transition-all shadow-lg transform translate-y-4 group-hover/image:translate-y-0 duration-300 hover:scale-110"
-                                                        title="查看大图"
-                                                    >
-                                                        <Maximize2 size={18} />
-                                                    </button>
-                                                )}
-                                                
-                                                {/* Change Image - With Menu */}
-                                                <div className="relative">
-                                                    <button 
-                                                        onClick={(e) => { e.stopPropagation(); setShowImageActionMenu(!showImageActionMenu); }}
-                                                        className="p-2 bg-white/90 text-gray-700 rounded-full hover:bg-white hover:text-orange-600 transition-all shadow-lg transform translate-y-4 group-hover/image:translate-y-0 duration-300 delay-75 hover:scale-110"
-                                                        title="更换图片"
-                                                    >
-                                                        <ImageIcon size={18} />
-                                                    </button>
-                                                    
-                                                    {/* Dropdown Menu */}
-                                                    {showImageActionMenu && (
-                                                        <div 
-                                                            className="absolute top-full mt-2 right-0 bg-white rounded-lg shadow-xl border border-gray-200 overflow-hidden z-50 min-w-[140px]"
-                                                            onClick={(e) => e.stopPropagation()}
-                                                        >
-                                                            <button
-                                                                onClick={() => {
-                                                                    fileInputRef.current?.click();
-                                                                    setShowImageActionMenu(false);
-                                                                }}
-                                                                className="w-full px-4 py-2 text-left text-sm hover:bg-orange-50 transition-colors flex items-center gap-2 text-gray-700"
-                                                            >
-                                                                <ImageIcon size={16} />
-                                                                {t('upload_image')}
-                                                            </button>
-                                                            <div className="h-px bg-gray-100"></div>
-                                                            <button
-                                                                onClick={() => {
-                                                                    setShowImageUrlInput(true);
-                                                                    setShowImageActionMenu(false);
-                                                                }}
-                                                                className="w-full px-4 py-2 text-left text-sm hover:bg-blue-50 transition-colors flex items-center gap-2 text-gray-700"
-                                                            >
-                                                                <Globe size={16} />
-                                                                {t('image_url')}
-                                                            </button>
-                                                        </div>
-                                                    )}
-                                                </div>
-                                                
-                                                {/* Reset */}
-                                                {activeTemplate.imageUrl && (
-                                                    <button 
-                                                        onClick={(e) => { e.stopPropagation(); handleResetImage(); }}
-                                                        className="p-2 bg-white/90 text-gray-700 rounded-full hover:bg-white hover:text-orange-600 transition-all shadow-lg transform translate-y-4 group-hover/image:translate-y-0 duration-300 delay-150 hover:scale-110"
-                                                        title="重置默认图片"
-                                                    >
-                                                        <Undo size={18} />
-                                                    </button>
-                                                )}
-                                            </div>
-                                        </div>
-                                    </div>
+                                  <button
+                                    onClick={() => {
+                                      fileInputRef.current?.click();
+                                      setShowImageActionMenu(false);
+                                    }}
+                                    className="w-full px-4 py-2 text-left text-sm hover:bg-orange-50 transition-colors flex items-center gap-2 text-gray-700"
+                                  >
+                                    <ImageIcon size={16} />
+                                    {t('upload_image')}
+                                  </button>
+                                  <div className="h-px bg-gray-100"></div>
+                                  <button
+                                    onClick={() => {
+                                      setShowImageUrlInput(true);
+                                      setShowImageActionMenu(false);
+                                    }}
+                                    className="w-full px-4 py-2 text-left text-sm hover:bg-blue-50 transition-colors flex items-center gap-2 text-gray-700"
+                                  >
+                                    <Globe size={16} />
+                                    {t('image_url')}
+                                  </button>
                                 </div>
+                              )}
                             </div>
 
-                            {/* --- Bottom Section: Content --- */}
-                            <div className="relative z-10 border-t border-gray-100 pt-8 mt-4">
-                                <div id="final-prompt-content" className="prose prose-slate max-w-none text-base md:text-lg leading-relaxed text-gray-600">
-                                    {renderTemplateContent()}
-                                </div>
-                            </div>
-                         </div>
-                         
-                         {/* Bottom spacing for aesthetics */}
-                         <div className="h-24"></div>
-                     </div>
-                     
-                     {/* Image URL Input Modal */}
-                     {showImageUrlInput && (
-                         <div 
-                             className="fixed inset-0 z-[90] bg-black/50 backdrop-blur-sm flex items-center justify-center p-4"
-                             onClick={() => { setShowImageUrlInput(false); setImageUrlInput(""); }}
-                         >
-                             <div 
-                                 className="bg-white rounded-xl shadow-2xl p-6 max-w-md w-full"
-                                 onClick={(e) => e.stopPropagation()}
-                             >
-                                 <h3 className="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
-                                     <Globe size={20} className="text-blue-500" />
-                                     {t('image_url')}
-                                 </h3>
-                                 <input
-                                     autoFocus
-                                     type="text"
-                                     value={imageUrlInput}
-                                     onChange={(e) => setImageUrlInput(e.target.value)}
-                                     placeholder={t('image_url_placeholder')}
-                                     className="w-full px-4 py-3 text-sm border border-gray-300 rounded-lg mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                                     onKeyDown={(e) => e.key === 'Enter' && handleSetImageUrl()}
-                                 />
-                                 <div className="flex gap-3">
-                                     <button
-                                         onClick={handleSetImageUrl}
-                                         disabled={!imageUrlInput.trim()}
-                                         className="flex-1 px-4 py-2.5 bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium rounded-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
-                                     >
-                                         {t('use_url')}
-                                     </button>
-                                     <button
-                                         onClick={() => { setShowImageUrlInput(false); setImageUrlInput(""); }}
-                                         className="flex-1 px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-medium rounded-lg transition-all"
-                                     >
-                                         {t('cancel')}
-                                     </button>
-                                 </div>
-                             </div>
-                         </div>
-                     )}
+                            {/* Reset */}
+                            {activeTemplate.imageUrl && (
+                              <button
+                                onClick={(e) => { e.stopPropagation(); handleResetImage(); }}
+                                className="p-2 bg-white/90 text-gray-700 rounded-full hover:bg-white hover:text-orange-600 transition-all shadow-lg transform translate-y-4 group-hover/image:translate-y-0 duration-300 delay-150 hover:scale-110"
+                                title="重置默认图片"
+                              >
+                                <Undo size={18} />
+                              </button>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* --- Bottom Section: Content --- */}
+                  <div className="relative z-10 border-t border-gray-100 pt-8 mt-4">
+                    <div id="final-prompt-content" className="prose prose-slate max-w-none text-base md:text-lg leading-relaxed text-gray-600">
+                      {renderTemplateContent()}
+                    </div>
+                  </div>
                 </div>
-            )}
+
+                {/* Bottom spacing for aesthetics */}
+                <div className="h-24"></div>
+              </div>
+
+              {/* Image URL Input Modal */}
+              {showImageUrlInput && (
+                <div
+                  className="fixed inset-0 z-[90] bg-black/50 backdrop-blur-sm flex items-center justify-center p-4"
+                  onClick={() => { setShowImageUrlInput(false); setImageUrlInput(""); }}
+                >
+                  <div
+                    className="bg-white rounded-xl shadow-2xl p-6 max-w-md w-full"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <h3 className="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
+                      <Globe size={20} className="text-blue-500" />
+                      {t('image_url')}
+                    </h3>
+                    <input
+                      autoFocus
+                      type="text"
+                      value={imageUrlInput}
+                      onChange={(e) => setImageUrlInput(e.target.value)}
+                      placeholder={t('image_url_placeholder')}
+                      className="w-full px-4 py-3 text-sm border border-gray-300 rounded-lg mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      onKeyDown={(e) => e.key === 'Enter' && handleSetImageUrl()}
+                    />
+                    <div className="flex gap-3">
+                      <button
+                        onClick={handleSetImageUrl}
+                        disabled={!imageUrlInput.trim()}
+                        className="flex-1 px-4 py-2.5 bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium rounded-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
+                      >
+                        {t('use_url')}
+                      </button>
+                      <button
+                        onClick={() => { setShowImageUrlInput(false); setImageUrlInput(""); }}
+                        className="flex-1 px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-medium rounded-lg transition-all"
+                      >
+                        {t('cancel')}
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
         </div>
       </div>
 
       {/* --- Image View Modal --- */}
       {zoomedImage && (
-        <div 
-            className="fixed inset-0 z-[100] bg-black/90 backdrop-blur-xl flex items-center justify-center p-4 md:p-8 animate-in fade-in duration-300"
-            onClick={() => setZoomedImage(null)}
+        <div
+          className="fixed inset-0 z-[100] bg-black/90 backdrop-blur-xl flex items-center justify-center p-4 md:p-8 animate-in fade-in duration-300"
+          onClick={() => setZoomedImage(null)}
         >
-            <button 
-                className="absolute top-4 right-4 md:top-8 md:right-8 text-white/50 hover:text-white transition-colors bg-white/10 hover:bg-white/20 p-2 rounded-full backdrop-blur-md"
-                onClick={() => setZoomedImage(null)}
-            >
-                <X size={24} />
-            </button>
-            
-            <div className="relative max-w-full max-h-full flex flex-col items-center">
-                <img 
-                    src={zoomedImage} 
-                    alt="Zoomed Preview" 
-                    className="max-w-full max-h-[80vh] object-contain rounded-lg shadow-2xl animate-in zoom-in-95 duration-300"
-                    onClick={(e) => e.stopPropagation()}
-                />
-                
-                {/* View Template Button */}
-                <div className="mt-6 flex gap-4" onClick={(e) => e.stopPropagation()}>
-                    <button
-                        onClick={() => {
-                            const template = INITIAL_TEMPLATES_CONFIG.find(t => t.imageUrl === zoomedImage) || 
-                                           templates.find(t => t.imageUrl === zoomedImage);
-                            
-                            if (template) {
-                                setActiveTemplateId(template.id);
-                                setIsTemplateExpanded(false);
-                            } else if (activeTemplate.imageUrl === zoomedImage) {
-                                setIsTemplateExpanded(false);
-                            }
-                            setZoomedImage(null);
-                        }}
-                        className="px-6 py-2.5 bg-orange-500 hover:bg-orange-600 text-white rounded-full font-medium shadow-lg shadow-orange-500/30 transition-all transform hover:-translate-y-0.5 flex items-center gap-2"
-                    >
-                        <LayoutGrid size={18} />
-                        查看模板
-                    </button>
-                </div>
+          <button
+            className="absolute top-4 right-4 md:top-8 md:right-8 text-white/50 hover:text-white transition-colors bg-white/10 hover:bg-white/20 p-2 rounded-full backdrop-blur-md"
+            onClick={() => setZoomedImage(null)}
+          >
+            <X size={24} />
+          </button>
+
+          <div className="relative max-w-full max-h-full flex flex-col items-center">
+            <img
+              src={zoomedImage}
+              alt="Zoomed Preview"
+              className="max-w-full max-h-[80vh] object-contain rounded-lg shadow-2xl animate-in zoom-in-95 duration-300"
+              onClick={(e) => e.stopPropagation()}
+            />
+
+            {/* View Template Button */}
+            <div className="mt-6 flex gap-4" onClick={(e) => e.stopPropagation()}>
+              <button
+                onClick={() => {
+                  const template = INITIAL_TEMPLATES_CONFIG.find(t => t.imageUrl === zoomedImage) ||
+                    templates.find(t => t.imageUrl === zoomedImage);
+
+                  if (template) {
+                    setActiveTemplateId(template.id);
+                    setIsTemplateExpanded(false);
+                  } else if (activeTemplate.imageUrl === zoomedImage) {
+                    setIsTemplateExpanded(false);
+                  }
+                  setZoomedImage(null);
+                }}
+                className="px-6 py-2.5 bg-orange-500 hover:bg-orange-600 text-white rounded-full font-medium shadow-lg shadow-orange-500/30 transition-all transform hover:-translate-y-0.5 flex items-center gap-2"
+              >
+                <LayoutGrid size={18} />
+                查看模板
+              </button>
             </div>
+          </div>
         </div>
       )}
 
       {/* --- 3. Bank Sidebar (Right) - UPDATED Resizable & Responsive Layout --- */}
-      <div 
+      <div
         ref={sidebarRef}
         className={`
             ${mobileTab === 'banks' ? 'flex fixed inset-0 z-50 bg-white md:static' : 'hidden'} 
@@ -3114,171 +3111,171 @@ const App = () => {
         style={{ width: isTemplateExpanded ? 0 : (window.innerWidth >= 768 ? `${bankSidebarWidth}px` : '100%') }}
       >
         {/* Resizer Handle - Moved to Left for Right Sidebar */}
-        <div 
-            className="hidden md:flex absolute -left-2 top-0 bottom-0 w-4 cursor-col-resize z-40 group items-center justify-center"
-            onMouseDown={startResizing}
+        <div
+          className="hidden md:flex absolute -left-2 top-0 bottom-0 w-4 cursor-col-resize z-40 group items-center justify-center"
+          onMouseDown={startResizing}
         >
-             {/* Visual handle indicator on hover */}
-            <div className="h-12 w-1 rounded-full bg-gray-300/50 group-hover:bg-orange-400/80 transition-colors shadow-sm backdrop-blur-sm"></div>
+          {/* Visual handle indicator on hover */}
+          <div className="h-12 w-1 rounded-full bg-gray-300/50 group-hover:bg-orange-400/80 transition-colors shadow-sm backdrop-blur-sm"></div>
         </div>
 
         <div className="p-5 border-b border-white/20 bg-white/40 backdrop-blur-md sticky top-0 z-30">
           <div className="flex items-center justify-between mb-1">
             <div className="flex items-center gap-2 text-gray-800">
-                <div className="p-1.5 bg-white rounded-lg text-gray-600 shadow-sm border border-gray-100">
-                    <Settings size={16} />
-                </div>
-                <h2 className="text-base font-bold">{t('bank_config')}</h2>
+              <div className="p-1.5 bg-white rounded-lg text-gray-600 shadow-sm border border-gray-100">
+                <Settings size={16} />
+              </div>
+              <h2 className="text-base font-bold">{t('bank_config')}</h2>
             </div>
-            <button 
-                onClick={() => setIsCategoryManagerOpen(true)}
-                className="flex items-center gap-1.5 px-3 py-1.5 bg-white/60 hover:bg-white text-gray-600 rounded-lg transition-all text-xs font-medium shadow-sm border border-transparent hover:border-gray-200 mr-1"
-                title={t('manage_categories')}
+            <button
+              onClick={() => setIsCategoryManagerOpen(true)}
+              className="flex items-center gap-1.5 px-3 py-1.5 bg-white/60 hover:bg-white text-gray-600 rounded-lg transition-all text-xs font-medium shadow-sm border border-transparent hover:border-gray-200 mr-1"
+              title={t('manage_categories')}
             >
-                <List size={14} />
-                {t('manage_categories')}
+              <List size={14} />
+              {t('manage_categories')}
             </button>
           </div>
           <p className="text-xs text-gray-500">{t('bank_subtitle')}</p>
         </div>
 
         <div className="flex-1 overflow-y-auto p-4 pb-24 md:pb-20 custom-scrollbar">
-          
+
           {bankSidebarWidth >= 520 || window.innerWidth < 768 ? (
-             <div className="flex flex-col md:flex-row gap-4 items-start">
-               {/* Left Column */}
-               <div className="flex-1 flex flex-col gap-4 min-w-0 w-full">
-                  {Object.keys(categories).filter((_, i) => i % 2 === 0).map(catId => (
-                      <CategorySection 
-                          key={catId}
-                          catId={catId}
-                          categories={categories}
-                          banks={banks}
-                          onInsert={(key) => {
-                              insertVariableToTemplate(key);
-                              // On mobile, maybe feedback or auto switch? Let's stay to allow multiple inserts
-                          }}
-                          onDeleteOption={handleDeleteOption}
-                          onAddOption={handleAddOption}
-                          onDeleteBank={handleDeleteBank}
-                          onUpdateBankCategory={handleUpdateBankCategory}
-                          t={t}
-                      />
-                  ))}
-               </div>
-               
-               {/* Right Column */}
-               <div className="flex-1 flex flex-col gap-4 min-w-0 w-full">
-                  {Object.keys(categories).filter((_, i) => i % 2 === 1).map(catId => (
-                      <CategorySection 
-                          key={catId}
-                          catId={catId}
-                          categories={categories}
-                          banks={banks}
-                          onInsert={insertVariableToTemplate}
-                          onDeleteOption={handleDeleteOption}
-                          onAddOption={handleAddOption}
-                          onDeleteBank={handleDeleteBank}
-                          onUpdateBankCategory={handleUpdateBankCategory}
-                          t={t}
-                      />
-                  ))}
-               </div>
-             </div>
+            <div className="flex flex-col md:flex-row gap-4 items-start">
+              {/* Left Column */}
+              <div className="flex-1 flex flex-col gap-4 min-w-0 w-full">
+                {Object.keys(categories).filter((_, i) => i % 2 === 0).map(catId => (
+                  <CategorySection
+                    key={catId}
+                    catId={catId}
+                    categories={categories}
+                    banks={banks}
+                    onInsert={(key) => {
+                      insertVariableToTemplate(key);
+                      // On mobile, maybe feedback or auto switch? Let's stay to allow multiple inserts
+                    }}
+                    onDeleteOption={handleDeleteOption}
+                    onAddOption={handleAddOption}
+                    onDeleteBank={handleDeleteBank}
+                    onUpdateBankCategory={handleUpdateBankCategory}
+                    t={t}
+                  />
+                ))}
+              </div>
+
+              {/* Right Column */}
+              <div className="flex-1 flex flex-col gap-4 min-w-0 w-full">
+                {Object.keys(categories).filter((_, i) => i % 2 === 1).map(catId => (
+                  <CategorySection
+                    key={catId}
+                    catId={catId}
+                    categories={categories}
+                    banks={banks}
+                    onInsert={insertVariableToTemplate}
+                    onDeleteOption={handleDeleteOption}
+                    onAddOption={handleAddOption}
+                    onDeleteBank={handleDeleteBank}
+                    onUpdateBankCategory={handleUpdateBankCategory}
+                    t={t}
+                  />
+                ))}
+              </div>
+            </div>
           ) : (
             <div className="flex flex-col gap-4">
-                {Object.keys(categories).map(catId => (
-                    <CategorySection 
-                        key={catId}
-                        catId={catId}
-                        categories={categories}
-                        banks={banks}
-                        onInsert={insertVariableToTemplate}
-                        onDeleteOption={handleDeleteOption}
-                        onAddOption={handleAddOption}
-                        onDeleteBank={handleDeleteBank}
-                        onUpdateBankCategory={handleUpdateBankCategory}
-                        t={t}
-                    />
-                ))}
+              {Object.keys(categories).map(catId => (
+                <CategorySection
+                  key={catId}
+                  catId={catId}
+                  categories={categories}
+                  banks={banks}
+                  onInsert={insertVariableToTemplate}
+                  onDeleteOption={handleDeleteOption}
+                  onAddOption={handleAddOption}
+                  onDeleteBank={handleDeleteBank}
+                  onUpdateBankCategory={handleUpdateBankCategory}
+                  t={t}
+                />
+              ))}
             </div>
           )}
 
-            {isAddingBank ? (
-                <div className="border border-dashed border-orange-300/50 rounded-xl p-4 bg-orange-50/30 mt-4 backdrop-blur-sm">
-                    <h4 className="text-xs font-bold text-orange-900 mb-3 uppercase tracking-wide flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
-                        {t('add_bank_title')}
-                    </h4>
-                    <div className="space-y-3">
-                        <div>
-                            <label className="block text-xs text-gray-500 mb-1 font-medium">{t('label_name')}</label>
-                            <input 
-                                autoFocus
-                                type="text" 
-                                className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:ring-2 focus:ring-orange-200 focus:border-orange-500 outline-none bg-white/80"
-                                placeholder={t('label_placeholder')}
-                                value={newBankLabel}
-                                onChange={e => setNewBankLabel(e.target.value)}
-                            />
-                        </div>
-                        <div>
-                            <label className="block text-xs text-gray-500 mb-1 font-medium">{t('id_name')}</label>
-                            <input 
-                                type="text" 
-                                className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 font-mono focus:ring-2 focus:ring-orange-200 focus:border-orange-500 outline-none bg-white/80"
-                                placeholder={t('id_placeholder')}
-                                value={newBankKey}
-                                onChange={e => setNewBankKey(e.target.value)} 
-                            />
-                        </div>
-                        <div>
-                            <label className="block text-xs text-gray-500 mb-1 font-medium">{t('category_label')}</label>
-                            <select 
-                                value={newBankCategory}
-                                onChange={e => setNewBankCategory(e.target.value)}
-                                className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:ring-2 focus:ring-orange-200 focus:border-orange-500 outline-none bg-white/80"
-                            >
-                                {Object.values(categories).map(cat => (
-                                    <option key={cat.id} value={cat.id}>{cat.label}</option>
-                                ))}
-                            </select>
-                        </div>
-                        <div className="flex gap-2 pt-2">
-                            <button 
-                                onClick={handleAddBank}
-                                className="flex-1 bg-orange-600 text-white text-xs py-2 rounded-lg hover:bg-orange-700 font-medium shadow-md shadow-orange-500/20 transition-all"
-                            >
-                                {t('confirm_add')}
-                            </button>
-                            <button 
-                                onClick={() => setIsAddingBank(false)}
-                                className="flex-1 bg-white border border-gray-200 text-gray-600 text-xs py-2 rounded-lg hover:bg-gray-50 transition-all"
-                            >
-                                {t('cancel')}
-                            </button>
-                        </div>
-                    </div>
+          {isAddingBank ? (
+            <div className="border border-dashed border-orange-300/50 rounded-xl p-4 bg-orange-50/30 mt-4 backdrop-blur-sm">
+              <h4 className="text-xs font-bold text-orange-900 mb-3 uppercase tracking-wide flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
+                {t('add_bank_title')}
+              </h4>
+              <div className="space-y-3">
+                <div>
+                  <label className="block text-xs text-gray-500 mb-1 font-medium">{t('label_name')}</label>
+                  <input
+                    autoFocus
+                    type="text"
+                    className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:ring-2 focus:ring-orange-200 focus:border-orange-500 outline-none bg-white/80"
+                    placeholder={t('label_placeholder')}
+                    value={newBankLabel}
+                    onChange={e => setNewBankLabel(e.target.value)}
+                  />
                 </div>
-            ) : (
-                <button 
-                    onClick={() => setIsAddingBank(true)}
-                    className="w-full py-4 mt-4 border border-dashed border-gray-300 rounded-xl text-gray-400 hover:text-orange-500 hover:border-orange-300 hover:bg-orange-50/30 transition-all flex items-center justify-center gap-2 font-medium text-sm backdrop-blur-sm"
-                >
-                    <Plus size={18} />
-                    {t('add_bank_group')}
-                </button>
-            )}
+                <div>
+                  <label className="block text-xs text-gray-500 mb-1 font-medium">{t('id_name')}</label>
+                  <input
+                    type="text"
+                    className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 font-mono focus:ring-2 focus:ring-orange-200 focus:border-orange-500 outline-none bg-white/80"
+                    placeholder={t('id_placeholder')}
+                    value={newBankKey}
+                    onChange={e => setNewBankKey(e.target.value)}
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs text-gray-500 mb-1 font-medium">{t('category_label')}</label>
+                  <select
+                    value={newBankCategory}
+                    onChange={e => setNewBankCategory(e.target.value)}
+                    className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:ring-2 focus:ring-orange-200 focus:border-orange-500 outline-none bg-white/80"
+                  >
+                    {Object.values(categories).map(cat => (
+                      <option key={cat.id} value={cat.id}>{cat.label}</option>
+                    ))}
+                  </select>
+                </div>
+                <div className="flex gap-2 pt-2">
+                  <button
+                    onClick={handleAddBank}
+                    className="flex-1 bg-orange-600 text-white text-xs py-2 rounded-lg hover:bg-orange-700 font-medium shadow-md shadow-orange-500/20 transition-all"
+                  >
+                    {t('confirm_add')}
+                  </button>
+                  <button
+                    onClick={() => setIsAddingBank(false)}
+                    className="flex-1 bg-white border border-gray-200 text-gray-600 text-xs py-2 rounded-lg hover:bg-gray-50 transition-all"
+                  >
+                    {t('cancel')}
+                  </button>
+                </div>
+              </div>
+            </div>
+          ) : (
+            <button
+              onClick={() => setIsAddingBank(true)}
+              className="w-full py-4 mt-4 border border-dashed border-gray-300 rounded-xl text-gray-400 hover:text-orange-500 hover:border-orange-300 hover:bg-orange-50/30 transition-all flex items-center justify-center gap-2 font-medium text-sm backdrop-blur-sm"
+            >
+              <Plus size={18} />
+              {t('add_bank_group')}
+            </button>
+          )}
         </div>
       </div>
 
       {/* --- Settings Modal --- */}
       {isSettingsOpen && (
-        <div 
+        <div
           className="fixed inset-0 z-[110] bg-black/30 backdrop-blur-sm flex items-center justify-center p-4 md:p-8"
           onClick={() => setIsSettingsOpen(false)}
         >
-          <div 
+          <div
             className="bg-white w-full max-w-4xl rounded-2xl shadow-2xl overflow-hidden border border-gray-100"
             onClick={(e) => e.stopPropagation()}
           >
@@ -3301,20 +3298,20 @@ const App = () => {
             </div>
 
             <div className="p-4 md:p-6 space-y-6 max-h-[75vh] overflow-y-auto">
-              
+
               {/* Import / Export */}
               <div className="space-y-3">
                 <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">{t('import_template')} / {t('export_all_templates')}</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   <label className="block">
-                    <input 
-                      type="file" 
-                      accept=".json" 
+                    <input
+                      type="file"
+                      accept=".json"
                       onChange={handleImportTemplate}
-                      className="hidden" 
+                      className="hidden"
                       id="import-template-input-modal"
                     />
-                    <div 
+                    <div
                       onClick={() => document.getElementById('import-template-input-modal').click()}
                       className="cursor-pointer w-full text-center px-4 py-3 text-sm font-medium bg-white hover:bg-gray-50 text-gray-700 rounded-xl transition-all border border-gray-200 flex items-center justify-center gap-2 shadow-sm"
                     >
@@ -3401,80 +3398,80 @@ const App = () => {
       {/* --- Image Lightbox --- */}
       {/* --- Image View Modal --- */}
       {zoomedImage && (
-        <div 
-            className="fixed inset-0 z-[100] bg-black/90 backdrop-blur-xl flex items-center justify-center p-4 md:p-8 animate-in fade-in duration-300"
-            onClick={() => setZoomedImage(null)}
+        <div
+          className="fixed inset-0 z-[100] bg-black/90 backdrop-blur-xl flex items-center justify-center p-4 md:p-8 animate-in fade-in duration-300"
+          onClick={() => setZoomedImage(null)}
         >
-            <button 
-                className="absolute top-4 right-4 md:top-8 md:right-8 text-white/50 hover:text-white transition-colors bg-white/10 hover:bg-white/20 p-2 rounded-full backdrop-blur-md"
-                onClick={() => setZoomedImage(null)}
-            >
-                <X size={24} />
-            </button>
-            
-            <div className="relative max-w-full max-h-full flex flex-col items-center">
-                <img 
-                    src={zoomedImage} 
-                    alt="Zoomed Preview" 
-                    className="max-w-full max-h-[80vh] object-contain rounded-lg shadow-2xl animate-in zoom-in-95 duration-300"
-                    onClick={(e) => e.stopPropagation()}
-                />
-                
-                {/* View Template Button */}
-                <div className="mt-6 flex gap-4" onClick={(e) => e.stopPropagation()}>
-                    <button
-                        onClick={() => {
-                            const template = INITIAL_TEMPLATES_CONFIG.find(t => t.imageUrl === zoomedImage) || 
-                                           templates.find(t => t.imageUrl === zoomedImage);
-                            
-                            if (template) {
-                                setActiveTemplateId(template.id);
-                                setIsTemplateExpanded(false);
-                            } else if (activeTemplate.imageUrl === zoomedImage) {
-                                setIsTemplateExpanded(false);
-                            }
-                            setZoomedImage(null);
-                        }}
-                        className="px-6 py-2.5 bg-orange-500 hover:bg-orange-600 text-white rounded-full font-medium shadow-lg shadow-orange-500/30 transition-all transform hover:-translate-y-0.5 flex items-center gap-2"
-                    >
-                        <LayoutGrid size={18} />
-                        查看模板
-                    </button>
-                </div>
+          <button
+            className="absolute top-4 right-4 md:top-8 md:right-8 text-white/50 hover:text-white transition-colors bg-white/10 hover:bg-white/20 p-2 rounded-full backdrop-blur-md"
+            onClick={() => setZoomedImage(null)}
+          >
+            <X size={24} />
+          </button>
+
+          <div className="relative max-w-full max-h-full flex flex-col items-center">
+            <img
+              src={zoomedImage}
+              alt="Zoomed Preview"
+              className="max-w-full max-h-[80vh] object-contain rounded-lg shadow-2xl animate-in zoom-in-95 duration-300"
+              onClick={(e) => e.stopPropagation()}
+            />
+
+            {/* View Template Button */}
+            <div className="mt-6 flex gap-4" onClick={(e) => e.stopPropagation()}>
+              <button
+                onClick={() => {
+                  const template = INITIAL_TEMPLATES_CONFIG.find(t => t.imageUrl === zoomedImage) ||
+                    templates.find(t => t.imageUrl === zoomedImage);
+
+                  if (template) {
+                    setActiveTemplateId(template.id);
+                    setIsTemplateExpanded(false);
+                  } else if (activeTemplate.imageUrl === zoomedImage) {
+                    setIsTemplateExpanded(false);
+                  }
+                  setZoomedImage(null);
+                }}
+                className="px-6 py-2.5 bg-orange-500 hover:bg-orange-600 text-white rounded-full font-medium shadow-lg shadow-orange-500/30 transition-all transform hover:-translate-y-0.5 flex items-center gap-2"
+              >
+                <LayoutGrid size={18} />
+                查看模板
+              </button>
             </div>
+          </div>
         </div>
       )}
 
       {/* --- Mobile Bottom Navigation --- */}
       <div className="md:hidden fixed bottom-0 left-0 right-0 bg-white/90 backdrop-blur-xl border-t border-gray-200 flex justify-around items-center z-50 h-16 pb-safe shadow-[0_-4px_20px_rgba(0,0,0,0.05)]">
-          <button 
-             onClick={() => setMobileTab('templates')}
-             className={`flex flex-col items-center justify-center w-full h-full gap-1 ${mobileTab === 'templates' ? 'text-orange-600' : 'text-gray-400'}`}
-          >
-             <FileText size={20} />
-             <span className="text-[10px] font-medium">{t('template_management')}</span>
-          </button>
-          
-          <button 
-             onClick={() => setMobileTab('banks')}
-             className={`flex flex-col items-center justify-center w-full h-full gap-1 ${mobileTab === 'banks' ? 'text-orange-600' : 'text-gray-400'}`}
-          >
-             <Settings size={20} />
-             <span className="text-[10px] font-medium">{t('bank_config')}</span>
-          </button>
-          
-          <button 
-             onClick={() => setMobileTab('editor')}
-             className={`flex flex-col items-center justify-center w-full h-full gap-1 ${mobileTab === 'editor' ? 'text-orange-600' : 'text-gray-400'}`}
-          >
-             <Edit3 size={20} />
-             <span className="text-[10px] font-medium">Editor</span>
-          </button>
+        <button
+          onClick={() => setMobileTab('templates')}
+          className={`flex flex-col items-center justify-center w-full h-full gap-1 ${mobileTab === 'templates' ? 'text-orange-600' : 'text-gray-400'}`}
+        >
+          <FileText size={20} />
+          <span className="text-[10px] font-medium">{t('template_management')}</span>
+        </button>
+
+        <button
+          onClick={() => setMobileTab('banks')}
+          className={`flex flex-col items-center justify-center w-full h-full gap-1 ${mobileTab === 'banks' ? 'text-orange-600' : 'text-gray-400'}`}
+        >
+          <Settings size={20} />
+          <span className="text-[10px] font-medium">{t('bank_config')}</span>
+        </button>
+
+        <button
+          onClick={() => setMobileTab('editor')}
+          className={`flex flex-col items-center justify-center w-full h-full gap-1 ${mobileTab === 'editor' ? 'text-orange-600' : 'text-gray-400'}`}
+        >
+          <Edit3 size={20} />
+          <span className="text-[10px] font-medium">Editor</span>
+        </button>
       </div>
 
       {/* --- Category Manager Modal (Moved to bottom) --- */}
-      <CategoryManager 
-        isOpen={isCategoryManagerOpen} 
+      <CategoryManager
+        isOpen={isCategoryManagerOpen}
         onClose={() => setIsCategoryManagerOpen(false)}
         categories={categories}
         setCategories={setCategories}
@@ -3490,8 +3487,8 @@ const App = () => {
         categories={categories}
         banks={banks}
         onSelect={(key) => {
-            insertVariableToTemplate(key);
-            setIsInsertModalOpen(false);
+          insertVariableToTemplate(key);
+          setIsInsertModalOpen(false);
         }}
         t={t}
       />
