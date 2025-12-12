@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Copy, Plus, X, Settings, Check, Edit3, Eye, Trash2, FileText, Pencil, Copy as CopyIcon, Globe, ChevronDown, ChevronUp, ChevronRight, GripVertical, Download, Image as ImageIcon, List, Undo, Redo, Maximize2, RotateCcw, LayoutGrid, Sidebar, Search, ArrowRight, User } from 'lucide-react';
-import html2canvas from 'html2canvas';
+
 import { INITIAL_TEMPLATES_CONFIG, TEMPLATE_TAGS } from './data/templates';
 import { INITIAL_BANKS, INITIAL_DEFAULTS, INITIAL_CATEGORIES } from './data/banks';
 
@@ -2035,6 +2035,9 @@ const App = () => {
   };
 
   const handleExportImage = async () => {
+    // Dynamic import to reduce initial bundle size
+    const html2canvas = (await import('html2canvas')).default;
+
     const element = document.getElementById('preview-card');
     if (!element) return;
 
