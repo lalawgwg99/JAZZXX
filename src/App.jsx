@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Copy, Plus, X, Settings, Check, Edit3, Eye, Trash2, FileText, Pencil, Copy as CopyIcon, Globe, ChevronDown, ChevronUp, ChevronRight, GripVertical, Download, Image as ImageIcon, List, Undo, Redo, Maximize2, RotateCcw, LayoutGrid, Sidebar, Search, ArrowRight, User } from 'lucide-react';
+import { Copy, Plus, X, Settings, Check, Edit3, Eye, Trash2, FileText, Pencil, Copy as CopyIcon, Globe, ChevronDown, ChevronUp, ChevronRight, GripVertical, Download, Image as ImageIcon, List, Undo, Redo, Maximize2, RotateCcw, LayoutGrid, Sidebar, Search, ArrowRight, User, Dice5, Eraser } from 'lucide-react';
 
 import { INITIAL_TEMPLATES_CONFIG, TEMPLATE_TAGS } from './data/templates';
 import { INITIAL_BANKS, INITIAL_DEFAULTS, INITIAL_CATEGORIES } from './data/banks';
@@ -96,7 +96,10 @@ const TRANSLATIONS = {
     refresh_desc: "強制更新內置模板與詞庫，保留用戶自定義",
     refresh_done_no_conflict: "刷新完成，系統內容已更新。",
     refresh_done_with_conflicts: "刷新完成，發現並保留以下用戶改動：",
-    refreshed_backup_suffix: "（自定義備份）"
+    refreshed_backup_suffix: "（自定義備份）",
+    randomize: "隨機靈感",
+    clear_selections: "清空選項",
+    confirm_clear_selections: "確定要清空當前所有選擇嗎？",
   },
   en: {
     template_management: "Templates",
@@ -1881,6 +1884,50 @@ const App = () => {
     ));
   };
 
+  // --- New Feature: Randomize & Clear ---
+  const handleRandomize = () => {
+    // 1. Find all variables in content
+    const content = activeTemplate.content;
+    const variableRegex = /{{(.*?)}}/g;
+    let match;
+    const newSelections = { ...activeTemplate.selections };
+    let hasChanges = false;
+
+    // Use a temporary counter to track variable instances just like rendering
+    const counters = {};
+
+    while ((match = variableRegex.exec(content)) !== null) {
+      const key = match[1].trim();
+      const bank = banks[key];
+
+      // Calculate unique key for this instance
+      const idx = counters[key] || 0;
+      counters[key] = idx + 1;
+      const uniqueKey = `${key}-${idx}`;
+
+      // Only randomize if bank has options
+      if (bank && bank.options && bank.options.length > 0) {
+        const randomOption = bank.options[Math.floor(Math.random() * bank.options.length)];
+        newSelections[uniqueKey] = randomOption;
+        hasChanges = true;
+      }
+    }
+
+    if (hasChanges) {
+      setTemplates(prev => prev.map(t =>
+        t.id === activeTemplateId ? { ...t, selections: newSelections } : t
+      ));
+    }
+  };
+
+  const handleClearSelections = () => {
+    if (window.confirm(t('confirm_clear_selections'))) {
+      setTemplates(prev => prev.map(t =>
+        t.id === activeTemplateId ? { ...t, selections: {} } : t
+      ));
+    }
+  };
+
   const updateActiveTemplateSelection = (uniqueKey, value) => {
     setTemplates(prev => prev.map(t => {
       if (t.id === activeTemplateId) {
@@ -2775,6 +2822,29 @@ const App = () => {
               >
                 <Edit3 size={16} /> <span className="hidden md:inline">{t('edit_mode')}</span>
               </button>
+            </div>
+
+            {/* Random & Clear Tools */}
+            <div className="flex items-center gap-2">
+              <PremiumButton
+                onClick={handleRandomize}
+                disabled={isEditing}
+                title={t('randomize')}
+                icon={Dice5}
+                color="violet"
+                className="hidden sm:flex"
+              >
+                <span className="hidden lg:inline">{t('randomize')}</span>
+              </PremiumButton>
+
+              <PremiumButton
+                onClick={handleClearSelections}
+                disabled={isEditing}
+                title={t('clear_selections')}
+                icon={Eraser}
+                color="slate"
+                className="hidden sm:flex"
+              />
             </div>
 
             <div className="h-6 w-px bg-gray-200 mx-1 hidden md:block"></div>
